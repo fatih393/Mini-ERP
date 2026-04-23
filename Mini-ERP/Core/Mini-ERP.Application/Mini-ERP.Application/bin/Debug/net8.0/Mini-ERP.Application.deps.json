@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Mini-ERP.Application/1.0.0": {
+        "dependencies": {
+          "Mini-ERP.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Mini-ERP.Application.dll": {}
+        }
+      },
+      "Mini-ERP.Domain/1.0.0": {
+        "runtime": {
+          "Mini-ERP.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mini-ERP.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mini-ERP.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

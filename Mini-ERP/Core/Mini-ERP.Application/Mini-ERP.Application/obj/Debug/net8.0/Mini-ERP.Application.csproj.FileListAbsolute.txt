@@ -1,0 +1,15 @@
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\bin\Debug\net8.0\Mini-ERP.Application.deps.json
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\bin\Debug\net8.0\Mini-ERP.Application.dll
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\bin\Debug\net8.0\Mini-ERP.Application.pdb
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\bin\Debug\net8.0\Mini-ERP.Domain.dll
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\bin\Debug\net8.0\Mini-ERP.Domain.pdb
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\obj\Debug\net8.0\Mini-ERP.Application.csproj.AssemblyReference.cache
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\obj\Debug\net8.0\Mini-ERP.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\obj\Debug\net8.0\Mini-ERP.Application.AssemblyInfoInputs.cache
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\obj\Debug\net8.0\Mini-ERP.Application.AssemblyInfo.cs
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\obj\Debug\net8.0\Mini-ERP.Application.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\obj\Debug\net8.0\Mini-ERP.B8F3C41E.Up2Date
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\obj\Debug\net8.0\Mini-ERP.Application.dll
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\obj\Debug\net8.0\refint\Mini-ERP.Application.dll
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\obj\Debug\net8.0\Mini-ERP.Application.pdb
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Application\Mini-ERP.Application\obj\Debug\net8.0\ref\Mini-ERP.Application.dll

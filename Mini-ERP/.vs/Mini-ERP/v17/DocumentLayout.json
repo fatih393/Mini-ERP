@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F370419-D74C-4259-8756-2395585F1349}|Presentation\\Mini-ERP.API\\Mini-ERP.API\\Mini-ERP.API.csproj|c:\\users\\fatih\\desktop\\\u00E7al\u0131\u015Fmalar\\mini-erp\\presentation\\mini-erp.api\\mini-erp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F370419-D74C-4259-8756-2395585F1349}|Presentation\\Mini-ERP.API\\Mini-ERP.API\\Mini-ERP.API.csproj|solutionrelative:presentation\\mini-erp.api\\mini-erp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Migrations\\20260423151801_mig_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Migrations\\20260423151801_mig_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|c:\\users\\fatih\\desktop\\\u00E7al\u0131\u015Fmalar\\mini-erp\\infrastructure\\mini-erp.persistence\\mini-erp.persistence\\migrations\\20260423150601_mig_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|solutionrelative:infrastructure\\mini-erp.persistence\\mini-erp.persistence\\migrations\\20260423150601_mig_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F370419-D74C-4259-8756-2395585F1349}|Presentation\\Mini-ERP.API\\Mini-ERP.API\\Mini-ERP.API.csproj|c:\\users\\fatih\\desktop\\\u00E7al\u0131\u015Fmalar\\mini-erp\\presentation\\mini-erp.api\\mini-erp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F370419-D74C-4259-8756-2395585F1349}|Presentation\\Mini-ERP.API\\Mini-ERP.API\\Mini-ERP.API.csproj|solutionrelative:presentation\\mini-erp.api\\mini-erp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|c:\\users\\fatih\\desktop\\\u00E7al\u0131\u015Fmalar\\mini-erp\\infrastructure\\mini-erp.persistence\\mini-erp.persistence\\contexts\\mini-erpapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|solutionrelative:infrastructure\\mini-erp.persistence\\mini-erp.persistence\\contexts\\mini-erpapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|c:\\users\\fatih\\desktop\\\u00E7al\u0131\u015Fmalar\\mini-erp\\infrastructure\\mini-erp.persistence\\mini-erp.persistence\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|solutionrelative:infrastructure\\mini-erp.persistence\\mini-erp.persistence\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Fatih\\.nuget\\packages\\oracle.entityframeworkcore\\8.21.121\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|c:\\users\\fatih\\desktop\\\u00E7al\u0131\u015Fmalar\\mini-erp\\infrastructure\\mini-erp.persistence\\mini-erp.persistence\\mini-erp.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|solutionrelative:infrastructure\\mini-erp.persistence\\mini-erp.persistence\\mini-erp.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|c:\\users\\fatih\\desktop\\\u00E7al\u0131\u015Fmalar\\mini-erp\\core\\mini-erp.domain\\mini-erp.domain\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|solutionrelative:core\\mini-erp.domain\\mini-erp.domain\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|c:\\users\\fatih\\desktop\\\u00E7al\u0131\u015Fmalar\\mini-erp\\core\\mini-erp.domain\\mini-erp.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|solutionrelative:core\\mini-erp.domain\\mini-erp.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|c:\\users\\fatih\\desktop\\\u00E7al\u0131\u015Fmalar\\mini-erp\\core\\mini-erp.domain\\mini-erp.domain\\enums\\employeerole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|solutionrelative:core\\mini-erp.domain\\mini-erp.domain\\enums\\employeerole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|c:\\users\\fatih\\desktop\\\u00E7al\u0131\u015Fmalar\\mini-erp\\core\\mini-erp.domain\\mini-erp.domain\\entities\\milkcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|solutionrelative:core\\mini-erp.domain\\mini-erp.domain\\entities\\milkcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|c:\\users\\fatih\\desktop\\\u00E7al\u0131\u015Fmalar\\mini-erp\\core\\mini-erp.domain\\mini-erp.domain\\mini-erp.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|solutionrelative:core\\mini-erp.domain\\mini-erp.domain\\mini-erp.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|c:\\users\\fatih\\desktop\\\u00E7al\u0131\u015Fmalar\\mini-erp\\core\\mini-erp.domain\\mini-erp.domain\\entities\\common\\baseentitiy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|solutionrelative:core\\mini-erp.domain\\mini-erp.domain\\entities\\common\\baseentitiy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260423151801_mig_2.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Migrations\\20260423151801_mig_2.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Migrations\\20260423151801_mig_2.cs",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Migrations\\20260423151801_mig_2.cs",
+              "RelativeToolTip": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Migrations\\20260423151801_mig_2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:18:01.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260423150601_mig_1.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Migrations\\20260423150601_mig_1.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Migrations\\20260423150601_mig_1.cs",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Migrations\\20260423150601_mig_1.cs",
+              "RelativeToolTip": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Migrations\\20260423150601_mig_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T15:06:01.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Presentation\\Mini-ERP.API\\Mini-ERP.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Mini-ERP.API\\Mini-ERP.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Presentation\\Mini-ERP.API\\Mini-ERP.API\\Program.cs",
+              "RelativeToolTip": "Presentation\\Mini-ERP.API\\Mini-ERP.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T14:18:18.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\Fatih\\.nuget\\packages\\oracle.entityframeworkcore\\8.21.121\\readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\oracle.entityframeworkcore\\8.21.121\\readme.txt",
+              "ToolTip": "C:\\Users\\Fatih\\.nuget\\packages\\oracle.entityframeworkcore\\8.21.121\\readme.txt",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\oracle.entityframeworkcore\\8.21.121\\readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-23T14:44:58.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mini-ErpAPIContext.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Contexts\\Mini-ErpAPIContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Contexts\\Mini-ErpAPIContext.cs",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Contexts\\Mini-ErpAPIContext.cs",
+              "RelativeToolTip": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Contexts\\Mini-ErpAPIContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T14:23:32.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Presentation\\Mini-ERP.API\\Mini-ERP.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\Mini-ERP.API\\Mini-ERP.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Presentation\\Mini-ERP.API\\Mini-ERP.API\\appsettings.json",
+              "RelativeToolTip": "Presentation\\Mini-ERP.API\\Mini-ERP.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-23T14:06:12.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Mini-ERP.Persistence",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj",
+              "RelativeToolTip": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-23T13:57:27.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Configuration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Configuration.cs",
+              "RelativeToolTip": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T13:57:34.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Employee.cs",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Employee.cs",
+              "RelativeToolTip": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T13:38:11.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeRole.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Enums\\EmployeeRole.cs",
+              "RelativeDocumentMoniker": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Enums\\EmployeeRole.cs",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Enums\\EmployeeRole.cs",
+              "RelativeToolTip": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Enums\\EmployeeRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T13:37:20.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Mini-ERP.Domain",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj",
+              "RelativeDocumentMoniker": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj",
+              "RelativeToolTip": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-23T13:36:57.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MilkCollection.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\MilkCollection.cs",
+              "RelativeDocumentMoniker": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\MilkCollection.cs",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\MilkCollection.cs",
+              "RelativeToolTip": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\MilkCollection.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T13:14:50.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Supplier.cs",
+              "RelativeDocumentMoniker": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Supplier.cs",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Supplier.cs",
+              "RelativeToolTip": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T13:11:24.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseEntitiy.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Common\\BaseEntitiy.cs",
+              "RelativeDocumentMoniker": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Common\\BaseEntitiy.cs",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\\u00C7al\u0131\u015Fmalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Common\\BaseEntitiy.cs",
+              "RelativeToolTip": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Common\\BaseEntitiy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T13:10:21.547Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

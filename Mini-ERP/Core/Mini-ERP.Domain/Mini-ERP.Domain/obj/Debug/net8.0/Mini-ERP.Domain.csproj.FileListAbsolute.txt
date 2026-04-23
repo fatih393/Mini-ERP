@@ -1,0 +1,11 @@
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Domain\Mini-ERP.Domain\bin\Debug\net8.0\Mini-ERP.Domain.deps.json
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Domain\Mini-ERP.Domain\bin\Debug\net8.0\Mini-ERP.Domain.dll
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Domain\Mini-ERP.Domain\bin\Debug\net8.0\Mini-ERP.Domain.pdb
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Domain\Mini-ERP.Domain\obj\Debug\net8.0\Mini-ERP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Domain\Mini-ERP.Domain\obj\Debug\net8.0\Mini-ERP.Domain.AssemblyInfoInputs.cache
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Domain\Mini-ERP.Domain\obj\Debug\net8.0\Mini-ERP.Domain.AssemblyInfo.cs
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Domain\Mini-ERP.Domain\obj\Debug\net8.0\Mini-ERP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Domain\Mini-ERP.Domain\obj\Debug\net8.0\Mini-ERP.Domain.dll
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Domain\Mini-ERP.Domain\obj\Debug\net8.0\refint\Mini-ERP.Domain.dll
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Domain\Mini-ERP.Domain\obj\Debug\net8.0\Mini-ERP.Domain.pdb
+C:\Users\Fatih\Desktop\Çalışmalar\Mini-ERP\Core\Mini-ERP.Domain\Mini-ERP.Domain\obj\Debug\net8.0\ref\Mini-ERP.Domain.dll
