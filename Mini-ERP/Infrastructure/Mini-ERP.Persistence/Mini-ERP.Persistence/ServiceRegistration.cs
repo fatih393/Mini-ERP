@@ -21,8 +21,11 @@ namespace Mini_ERP.Persistence
             services.AddDbContext<Mini_ErpAPIContext>(options => options.UseOracle(Configuration.ConnectionString));
 
             services.AddScoped<ISupplierService, SupplierService>();
+            services.AddScoped<IEmployeeService, EmployeeService>();
             services.AddScoped<ISupplierReadRepository, SupplierReadRepository>();
             services.AddScoped<ISupplierWriteRepository, SupplierWriteRepository>();
+            services.AddScoped<IEmployeeReadRepository, EmployeeReadRepository>();
+            services.AddScoped<IEmployeeWriteRepository, EmployeeWriteRepository>();
         }
     }
 }

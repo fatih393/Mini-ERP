@@ -1,5 +1,69 @@
 [
   {
+    "ContainingType": "Mini_ERP.API.Controllers.EmployeeController",
+    "Method": "AddEmployee",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createEmployeeCommandRequest",
+        "Type": "Mini_ERP.Application.Features.Commands.Employee.CreateEmployee.CreateEmployeeCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP.API.Controllers.EmployeeController",
+    "Method": "GetEmployees",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getEmployeeQueryRequest",
+        "Type": "Mini_ERP.Application.Features.Queries.Employee.GetEmployee.GetEmployeeQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP.API.Controllers.EmployeeController",
+    "Method": "UpdateEmployees",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateEmployeeCommandRequest",
+        "Type": "Mini_ERP.Application.Features.Commands.Employee.UpdateEmployee.UpdateEmployeeCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP.API.Controllers.EmployeeController",
+    "Method": "RemoveEmployee",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "removeEmployeeCommandRequest",
+        "Type": "Mini_ERP.Application.Features.Commands.Employee.RemoveEmployee.RemoveEmployeeCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Mini_ERP.API.Controllers.SupplierController",
     "Method": "AddSupplier",
     "RelativePath": "api/Supplier",
@@ -8,8 +72,56 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "Mini_ERP.API.Controllers.SupplierRequest",
+        "Name": "createSupplierCommandRequest",
+        "Type": "Mini_ERP.Application.Features.Commands.Supplier.CreateSupplier.CreateSupplierCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP.API.Controllers.SupplierController",
+    "Method": "GetSupplier",
+    "RelativePath": "api/Supplier",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getSupplierQueryRequest",
+        "Type": "Mini_ERP.Application.Features.Queries.Supplier.GetSupplier.GetSupplierQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP.API.Controllers.SupplierController",
+    "Method": "RemoveSupplier",
+    "RelativePath": "api/Supplier",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP.API.Controllers.SupplierController",
+    "Method": "UpdateSupplier",
+    "RelativePath": "api/Supplier",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateSupplierCommandRequest",
+        "Type": "Mini_ERP.Application.Features.Commands.Supplier.UpdateSupplier.UpdateSupplierCommandRequest",
         "IsRequired": true
       }
     ],
