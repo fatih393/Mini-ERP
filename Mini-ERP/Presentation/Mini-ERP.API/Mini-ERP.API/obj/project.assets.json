@@ -4725,11 +4725,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fatih\\Desktop\\Çalışmalar\\Mini-ERP\\Presentation\\Mini-ERP.API\\Mini-ERP.API\\Mini-ERP.API.csproj",
+      "projectUniqueName": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Presentation\\Mini-ERP.API\\Mini-ERP.API\\Mini-ERP.API.csproj",
       "projectName": "Mini-ERP.API",
-      "projectPath": "C:\\Users\\Fatih\\Desktop\\Çalışmalar\\Mini-ERP\\Presentation\\Mini-ERP.API\\Mini-ERP.API\\Mini-ERP.API.csproj",
+      "projectPath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Presentation\\Mini-ERP.API\\Mini-ERP.API\\Mini-ERP.API.csproj",
       "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fatih\\Desktop\\Çalışmalar\\Mini-ERP\\Presentation\\Mini-ERP.API\\Mini-ERP.API\\obj\\",
+      "outputPath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Presentation\\Mini-ERP.API\\Mini-ERP.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4747,14 +4747,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Fatih\\Desktop\\Çalışmalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj": {
-              "projectPath": "C:\\Users\\Fatih\\Desktop\\Çalışmalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj"
+            "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj": {
+              "projectPath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj"
             },
-            "C:\\Users\\Fatih\\Desktop\\Çalışmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\Mini-EEP.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Fatih\\Desktop\\Çalışmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\Mini-EEP.Infrastructure.csproj"
+            "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\Mini-EEP.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\Mini-EEP.Infrastructure.csproj"
             },
-            "C:\\Users\\Fatih\\Desktop\\Çalışmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj": {
-              "projectPath": "C:\\Users\\Fatih\\Desktop\\Çalışmalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj"
+            "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj": {
+              "projectPath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj"
             }
           }
         }

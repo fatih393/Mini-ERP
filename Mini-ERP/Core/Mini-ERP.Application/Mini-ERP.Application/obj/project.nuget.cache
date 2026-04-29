@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C4UYTCs3W0U=",
+  "dgSpecHash": "8SXz4mtEtPA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fatih\\Desktop\\Çalışmalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj",
+  "projectFilePath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fatih\\.nuget\\packages\\mediatr\\8.0.0\\mediatr.8.0.0.nupkg.sha512",
     "C:\\Users\\Fatih\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.0.0\\mediatr.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",

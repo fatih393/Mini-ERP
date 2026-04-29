@@ -17,4 +17,9 @@
     <ProjectReference Include="..\..\Mini-ERP.Domain\Mini-ERP.Domain\Mini-ERP.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Commands\MilkCollection\UpdateMilkCollection\" />
+    <Folder Include="Features\Commands\MilkCollection\RemoveMilkCollection\" />
+  </ItemGroup>
+
 </Project>

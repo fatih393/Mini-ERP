@@ -14,6 +14,6 @@ namespace Mini_ERP.Domain.Entities
         public string Address { get; set; }
         public string Location { get; set; }
         public DateTime CreateDate { get; set; }
-        public List<MilkCollection> MilkCollections { get; set; }
+        public ICollection<MilkCollection> MilkCollections { get; set; } 
     }
 }

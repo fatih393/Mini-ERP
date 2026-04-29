@@ -22,10 +22,14 @@ namespace Mini_ERP.Persistence
 
             services.AddScoped<ISupplierService, SupplierService>();
             services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddScoped<IMilkCollectionService, MilkCollectionService>();
+
             services.AddScoped<ISupplierReadRepository, SupplierReadRepository>();
             services.AddScoped<ISupplierWriteRepository, SupplierWriteRepository>();
             services.AddScoped<IEmployeeReadRepository, EmployeeReadRepository>();
             services.AddScoped<IEmployeeWriteRepository, EmployeeWriteRepository>();
+            services.AddScoped<IMilkCollectionReadRepository, MilkCollectionReadRepository>();
+            services.AddScoped<IMilkCollectionWriteRepository, MilkCollectionWriteRepository>();
         }
     }
 }

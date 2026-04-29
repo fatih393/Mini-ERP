@@ -56,9 +56,41 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "removeEmployeeCommandRequest",
-        "Type": "Mini_ERP.Application.Features.Commands.Employee.RemoveEmployee.RemoveEmployeeCommandRequest",
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP.API.Controllers.MilkCollectionController",
+    "Method": "AddMilkCollection",
+    "RelativePath": "api/MilkCollection",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createMilkCollectionCommandRequest",
+        "Type": "Mini_ERP.Application.Features.Commands.MilkCollection.CreateMilkCollection.CreateMilkCollectionCommandRequest",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP.API.Controllers.MilkCollectionController",
+    "Method": "GetMilkCollection",
+    "RelativePath": "api/MilkCollection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getMilkCollectionRequest",
+        "Type": "Mini_ERP.Application.Features.Queries.MilkCollection.GetMilkCollection.GetMilkCollectionRequest",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

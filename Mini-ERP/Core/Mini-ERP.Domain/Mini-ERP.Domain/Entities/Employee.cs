@@ -13,6 +13,11 @@ namespace Mini_ERP.Domain.Entities
         public string Name { get; set; }
         public string Phone { get; set; }
         public EmployeeRole Role { get; set; }
-       
+        public ICollection<MilkCollection> CollectedMilkCollections { get; set; }
+
+        // 🔥 1 Employee -> many quality checked milk
+        public ICollection<MilkCollection> QualityMilkCollections { get; set; } 
+
+
     }
 }
