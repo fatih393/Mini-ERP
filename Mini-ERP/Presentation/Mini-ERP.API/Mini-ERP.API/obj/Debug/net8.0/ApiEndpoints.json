@@ -96,6 +96,70 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Mini_ERP.API.Controllers.MilkCollectionController",
+    "Method": "GetByIdCollectorEmployeeId",
+    "RelativePath": "api/MilkCollection/Collector Employee/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP.API.Controllers.MilkCollectionController",
+    "Method": "GetByIdMilkCollection",
+    "RelativePath": "api/MilkCollection/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP.API.Controllers.MilkCollectionController",
+    "Method": "GetByIdQualityEmployeeId",
+    "RelativePath": "api/MilkCollection/Quality Employee/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP.API.Controllers.MilkCollectionController",
+    "Method": "GetByIdSupplierId",
+    "RelativePath": "api/MilkCollection/Supplier/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Mini_ERP.API.Controllers.SupplierController",
     "Method": "AddSupplier",
     "RelativePath": "api/Supplier",

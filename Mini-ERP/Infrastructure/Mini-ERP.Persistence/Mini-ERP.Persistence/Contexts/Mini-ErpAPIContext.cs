@@ -21,6 +21,7 @@ namespace Mini_ERP.Persistence.Contexts
         public DbSet<Employee> Employees { get; set; }
         public DbSet<MilkCollection> MilkCollections { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<Stock> Stocks { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

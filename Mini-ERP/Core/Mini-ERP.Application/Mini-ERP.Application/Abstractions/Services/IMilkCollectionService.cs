@@ -14,6 +14,12 @@ namespace Mini_ERP.Application.Abstractions.Services
         Task<List<MilkCollectionDto>> GetMilkCollectionAsync();
         Task<bool> RemoveMilkCollection(int id);
         Task<bool> UpdateMilkCollection(int id, decimal Quantity, decimal FatRate, decimal ProteinRate, string Note, bool Status, int SupplierId, int CollectorEmployeeId, int QualityEmployeeId);
+        Task<List<MilkCollectionDto>> GetCollectorEmployeeId(int id);
+        Task<List<MilkCollectionDto>> GetQualityEmployeeId(int id);
+        Task<List<MilkCollectionDto>> GetSupplierId(int id);
+        Task<MilkCollectionDto> GetByIdMilkCollection(int id);
+
+
     }
 }
 /*

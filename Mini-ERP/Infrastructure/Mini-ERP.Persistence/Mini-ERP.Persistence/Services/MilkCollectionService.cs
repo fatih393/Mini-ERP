@@ -48,6 +48,7 @@ namespace Mini_ERP.Persistence.Services
             }
         }
 
+
         public async Task<List<MilkCollectionDto>> GetMilkCollectionAsync()
         {
             return await _milkCollectionReadRepository.GetAll()
@@ -109,6 +110,142 @@ namespace Mini_ERP.Persistence.Services
             catch(Exception ex)
             {
                 return false;
+            }
+        }
+
+
+        public async Task<List<MilkCollectionDto>> GetCollectorEmployeeId(int id)
+        {
+            try
+            {
+                return await _milkCollectionReadRepository
+                    .GetAll()
+                    .Where(x => x.CollectorEmployeeId == id)
+                    .Select(x => new MilkCollectionDto
+                    {
+                        Id = x.Id,
+                        Date = x.Date,
+                        Quantity = x.Quantity,
+                        FatRate = x.FatRate,
+                        ProteinRate = x.ProteinRate,
+                        Note = x.Note,
+                        Status = x.Status,
+
+                        SupplierId = x.SupplierId,
+                        SupplierName = x.Supplier.Name,
+
+                        CollectorEmployeeId = x.CollectorEmployeeId,
+                        CollectorEmployeeName = x.CollectorEmployee.Name,
+
+                        QualityEmployeeId = x.QualityEmployeeId,
+                        QualityEmployeeName = x.QualityEmployee != null ? x.QualityEmployee.Name : null
+                    })
+                    .ToListAsync();
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+
+        public async Task<List<MilkCollectionDto>> GetQualityEmployeeId(int id)
+        {
+            try
+            {
+                 return await _milkCollectionReadRepository.GetAll()
+                 .Where(x => x.QualityEmployeeId == id)
+                 .Select(x => new MilkCollectionDto
+                 {
+                     Id = x.Id,
+                     Date = x.Date,
+                     Quantity = x.Quantity,
+                     FatRate = x.FatRate,
+                     ProteinRate = x.ProteinRate,
+                     Note = x.Note,
+                     Status = x.Status,
+
+                     SupplierId = x.SupplierId,
+                     SupplierName = x.Supplier.Name,
+
+                     CollectorEmployeeId = x.CollectorEmployeeId,
+                     CollectorEmployeeName = x.CollectorEmployee.Name,
+
+                     QualityEmployeeId = x.QualityEmployeeId,
+                     QualityEmployeeName = x.QualityEmployee != null ? x.QualityEmployee.Name : null
+                 }).ToListAsync();
+            }
+            catch
+            {
+                return null;
+            }
+           
+
+        }
+
+        public async Task<List<MilkCollectionDto>> GetSupplierId(int id)
+        {
+            try
+            { return await _milkCollectionReadRepository.GetAll()
+                 .Where(x => x.SupplierId == id)
+                 .Select(x => new MilkCollectionDto
+                 {
+                     Id = x.Id,
+                     Date = x.Date,
+                     Quantity = x.Quantity,
+                     FatRate = x.FatRate,
+                     ProteinRate = x.ProteinRate,
+                     Note = x.Note,
+                     Status = x.Status,
+
+                     SupplierId = x.SupplierId,
+                     SupplierName = x.Supplier.Name,
+
+                     CollectorEmployeeId = x.CollectorEmployeeId,
+                     CollectorEmployeeName = x.CollectorEmployee.Name,
+
+                     QualityEmployeeId = x.QualityEmployeeId,
+                     QualityEmployeeName = x.QualityEmployee != null ? x.QualityEmployee.Name : null
+                 }).ToListAsync();
+
+            }
+           
+            catch
+            {
+                return null;
+            }
+        }
+
+        public async Task<MilkCollectionDto> GetByIdMilkCollection(int id)
+        {
+            try
+            {
+                return await _milkCollectionReadRepository
+        .GetAll()
+        .Where(x => x.Id == id)
+        .Select(x => new MilkCollectionDto
+        {
+            Id = x.Id,
+            Date = x.Date,
+            Quantity = x.Quantity,
+            FatRate = x.FatRate,
+            ProteinRate = x.ProteinRate,
+            Note = x.Note,
+            Status = x.Status,
+
+            SupplierId = x.SupplierId,
+            SupplierName = x.Supplier.Name,
+
+            CollectorEmployeeId = x.CollectorEmployeeId,
+            CollectorEmployeeName = x.CollectorEmployee.Name,
+
+            QualityEmployeeId = x.QualityEmployeeId,
+            QualityEmployeeName = x.QualityEmployee != null ? x.QualityEmployee.Name : null
+        })
+        .FirstOrDefaultAsync();
+            }
+            catch
+            {
+                return null;
             }
         }
     }

@@ -290,6 +290,39 @@ namespace Mini_ERP.Persistence.Migrations
                     b.ToTable("MilkCollections");
                 });
 
+            modelBuilder.Entity("Mini_ERP.Domain.Entities.Stock", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("LastUpdated")
+                        .HasColumnType("TIMESTAMP(7)");
+
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<decimal>("Quantity")
+                        .HasColumnType("DECIMAL(18, 2)");
+
+                    b.Property<int?>("ReferenceId")
+                        .HasColumnType("NUMBER(10)");
+
+                    b.Property<int>("ReferenceType")
+                        .HasColumnType("NUMBER(10)");
+
+                    b.Property<string>("Unit")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Stocks");
+                });
+
             modelBuilder.Entity("Mini_ERP.Domain.Entities.Supplier", b =>
                 {
                     b.Property<int>("Id")
@@ -376,14 +409,15 @@ namespace Mini_ERP.Persistence.Migrations
             modelBuilder.Entity("Mini_ERP.Domain.Entities.MilkCollection", b =>
                 {
                     b.HasOne("Mini_ERP.Domain.Entities.Employee", "CollectorEmployee")
-                        .WithMany()
+                        .WithMany("CollectedMilkCollections")
                         .HasForeignKey("CollectorEmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Mini_ERP.Domain.Entities.Employee", "QualityEmployee")
-                        .WithMany()
-                        .HasForeignKey("QualityEmployeeId");
+                        .WithMany("QualityMilkCollections")
+                        .HasForeignKey("QualityEmployeeId")
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("Mini_ERP.Domain.Entities.Supplier", "Supplier")
                         .WithMany("MilkCollections")
@@ -396,6 +430,13 @@ namespace Mini_ERP.Persistence.Migrations
                     b.Navigation("QualityEmployee");
 
                     b.Navigation("Supplier");
+                });
+
+            modelBuilder.Entity("Mini_ERP.Domain.Entities.Employee", b =>
+                {
+                    b.Navigation("CollectedMilkCollections");
+
+                    b.Navigation("QualityMilkCollections");
                 });
 
             modelBuilder.Entity("Mini_ERP.Domain.Entities.Supplier", b =>

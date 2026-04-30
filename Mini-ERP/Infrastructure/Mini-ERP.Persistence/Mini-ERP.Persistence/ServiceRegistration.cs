@@ -30,6 +30,8 @@ namespace Mini_ERP.Persistence
             services.AddScoped<IEmployeeWriteRepository, EmployeeWriteRepository>();
             services.AddScoped<IMilkCollectionReadRepository, MilkCollectionReadRepository>();
             services.AddScoped<IMilkCollectionWriteRepository, MilkCollectionWriteRepository>();
+            services.AddScoped<IStockReadRepository, StockReadRepository>();
+            services.AddScoped<IStockWriteRepository, StockWriteRepository>();
         }
     }
 }
