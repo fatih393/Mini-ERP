@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\infrastructure\\mini-erp.persistence\\mini-erp.persistence\\services\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|solutionrelative:infrastructure\\mini-erp.persistence\\mini-erp.persistence\\services\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\core\\mini-erp.application\\mini-erp.application\\abstractions\\services\\istockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|solutionrelative:core\\mini-erp.application\\mini-erp.application\\abstractions\\services\\istockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F370419-D74C-4259-8756-2395585F1349}|Presentation\\Mini-ERP.API\\Mini-ERP.API\\Mini-ERP.API.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\presentation\\mini-erp.api\\mini-erp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F370419-D74C-4259-8756-2395585F1349}|Presentation\\Mini-ERP.API\\Mini-ERP.API\\Mini-ERP.API.csproj|solutionrelative:presentation\\mini-erp.api\\mini-erp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\core\\mini-erp.domain\\mini-erp.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|solutionrelative:core\\mini-erp.domain\\mini-erp.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\infrastructure\\mini-erp.persistence\\mini-erp.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|solutionrelative:infrastructure\\mini-erp.persistence\\mini-erp.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\infrastructure\\mini-erp.persistence\\mini-erp.persistence\\repostories\\stock\\stockreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|solutionrelative:infrastructure\\mini-erp.persistence\\mini-erp.persistence\\repostories\\stock\\stockreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\infrastructure\\mini-erp.persistence\\mini-erp.persistence\\repostories\\stock\\stockwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|solutionrelative:infrastructure\\mini-erp.persistence\\mini-erp.persistence\\repostories\\stock\\stockwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\core\\mini-erp.application\\mini-erp.application\\repostories\\stock\\istockwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|solutionrelative:core\\mini-erp.application\\mini-erp.application\\repostories\\stock\\istockwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\core\\mini-erp.application\\mini-erp.application\\repostories\\stock\\istockreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|solutionrelative:core\\mini-erp.application\\mini-erp.application\\repostories\\stock\\istockreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\infrastructure\\mini-erp.persistence\\mini-erp.persistence\\contexts\\mini-erpapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|solutionrelative:infrastructure\\mini-erp.persistence\\mini-erp.persistence\\contexts\\mini-erpapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\core\\mini-erp.domain\\mini-erp.domain\\enums\\referencetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|solutionrelative:core\\mini-erp.domain\\mini-erp.domain\\enums\\referencetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StockService.cs",
-              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Services\\StockService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Services\\StockService.cs",
-              "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Services\\StockService.cs",
-              "RelativeToolTip": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Services\\StockService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAADgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T10:37:38.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IStockService.cs",
-              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Abstractions\\Services\\IStockService.cs",
-              "RelativeDocumentMoniker": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Abstractions\\Services\\IStockService.cs",
-              "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Abstractions\\Services\\IStockService.cs",
-              "RelativeToolTip": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Abstractions\\Services\\IStockService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T10:28:00.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\ServiceRegistration.cs",
-              "RelativeToolTip": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T10:27:01.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StockWriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Repostories\\Stock\\StockWriteRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Repostories\\Stock\\StockWriteRepository.cs",
-              "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Repostories\\Stock\\StockWriteRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Repostories\\Stock\\StockWriteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T10:25:43.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StockReadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Repostories\\Stock\\StockReadRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Repostories\\Stock\\StockReadRepository.cs",
-              "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Repostories\\Stock\\StockReadRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Repostories\\Stock\\StockReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T10:25:23.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IStockWriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Repostories\\Stock\\IStockWriteRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Repostories\\Stock\\IStockWriteRepository.cs",
-              "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Repostories\\Stock\\IStockWriteRepository.cs",
-              "RelativeToolTip": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Repostories\\Stock\\IStockWriteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T10:23:56.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IStockReadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Repostories\\Stock\\IStockReadRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Repostories\\Stock\\IStockReadRepository.cs",
-              "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Repostories\\Stock\\IStockReadRepository.cs",
-              "RelativeToolTip": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Repostories\\Stock\\IStockReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T10:23:46.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Mini-ErpAPIContext.cs",
-              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Contexts\\Mini-ErpAPIContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Contexts\\Mini-ErpAPIContext.cs",
-              "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Contexts\\Mini-ErpAPIContext.cs",
-              "RelativeToolTip": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Contexts\\Mini-ErpAPIContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T10:19:32.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Stock.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Stock.cs",
               "RelativeDocumentMoniker": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Stock.cs",
               "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Stock.cs",
               "RelativeToolTip": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Entities\\Stock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T10:15:04.302Z",
+              "WhenOpened": "2026-05-01T13:16:31.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReferenceType.cs",
-              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Enums\\ReferenceType.cs",
-              "RelativeDocumentMoniker": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Enums\\ReferenceType.cs",
-              "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Enums\\ReferenceType.cs",
-              "RelativeToolTip": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Enums\\ReferenceType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Presentation\\Mini-ERP.API\\Mini-ERP.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Mini-ERP.API\\Mini-ERP.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Presentation\\Mini-ERP.API\\Mini-ERP.API\\Program.cs",
+              "RelativeToolTip": "Presentation\\Mini-ERP.API\\Mini-ERP.API\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T10:17:46.378Z",
+              "WhenOpened": "2026-05-01T11:35:35.922Z",
               "EditorCaption": ""
             }
           ]

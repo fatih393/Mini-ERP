@@ -21,5 +21,25 @@ namespace Mini_ERP.Domain.Entities
         public ReferenceType ReferenceType { get; set; }
 
         public DateTime LastUpdated { get; set; }
+
+
+
+
+        /* {"message", new RenderedMessageColumnWriter() },
+        {"message_template", new MessageTemplateColumnWriter() },
+        {"level", new LevelColumnWriter() },
+        {"time_stamp", new TimestampColumnWriter() },
+        {"exception", new ExceptionColumnWriter() },
+        {"log_event", new LogEventSerializedColumnWriter() },
+        {"user_name", new UserNameColumnWriter() }
+        })*/
+
+
+     /*   public string Message { get; set; }
+        public string Lavel { get; set; }
+        public DateTime time_stamp { get; set; }
+        public string Exeption { get; set; }
+        public string Logevent { get; set; }
+        public string user_name { get; set; }*/
     }
 }

@@ -3,6 +3,13 @@ using Mini_ERP.Persistence;
 using Mini_ERP.Persistence.Contexts;
 using Mini_ERP.Application;
 using System.Text.Json.Serialization;
+using Serilog;
+using Microsoft.Extensions.Logging;
+using Serilog.Core;
+using Serilog.Sinks.Oracle.Columns;
+using Serilog.Formatting.Compact;
+using Serilog.Sinks.Oracle;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -17,6 +24,18 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddPersistenceServices(builder.Configuration);
 builder.Services.AddApplicationServices();
 
+var logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .Enrich.FromLogContext()
+    .Enrich.WithThreadId()
+    .Enrich.WithMachineName()
+
+    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .WriteTo.Seq(builder.Configuration["Seq:ServerUrl"])
+
+    .CreateLogger();
+
+builder.Host.UseSerilog(logger);
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
