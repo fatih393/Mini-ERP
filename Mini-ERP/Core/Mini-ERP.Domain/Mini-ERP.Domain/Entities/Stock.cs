@@ -10,11 +10,11 @@ namespace Mini_ERP.Domain.Entities
 {
     public class Stock: BaseEntitiy
     {
-        public string ProductName { get; set; }
+        public ProductName ProductName { get; set; }
 
         public decimal Quantity { get; set; }
 
-        public string Unit { get; set; }
+        public Unit Unit { get; set; }
 
         public int? ReferenceId { get; set; }
 

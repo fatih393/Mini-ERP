@@ -22,7 +22,7 @@ namespace Mini_ERP.Persistence.Services
             _milkCollectionWriteRepository = milkCollectionWriteRepository;
         }
 
-        public async Task<bool> AddMilkCollectionAsync(decimal Quantity, decimal FatRate, decimal ProteinRate, string Note, bool Status, int SupplierId, int CollectorEmployeeId, int QualityEmployeeId)
+        public async Task<int> AddMilkCollectionAsync(decimal Quantity, decimal FatRate, decimal ProteinRate, string Note, bool Status, int SupplierId, int CollectorEmployeeId, int QualityEmployeeId)
         {
             try
             {
@@ -40,11 +40,11 @@ namespace Mini_ERP.Persistence.Services
                 };
                 await _milkCollectionWriteRepository.AddAsync(newMilkCollection);
                 await _milkCollectionWriteRepository.SaveAsync();
-                return true;
+                return newMilkCollection.Id;
             }
             catch (Exception ex)
             {
-                return false;
+                return 0;
             }
         }
 

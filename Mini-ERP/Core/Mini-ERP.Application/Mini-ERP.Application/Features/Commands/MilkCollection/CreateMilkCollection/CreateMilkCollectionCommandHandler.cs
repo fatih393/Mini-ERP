@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using Mini_ERP.Application.Abstractions.Services;
 using Mini_ERP.Application.Features.Commands.Employee.UpdateEmployee;
+using Mini_ERP.Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,18 +15,34 @@ namespace Mini_ERP.Application.Features.Commands.MilkCollection.CreateMilkCollec
     {
         readonly IMilkCollectionService _milkCollectionService;
        readonly ILogger<CreateMilkCollectionCommandHandler> _logger;
-        public CreateMilkCollectionCommandHandler(IMilkCollectionService milkCollectionService, ILogger<CreateMilkCollectionCommandHandler> logger)
+        readonly IStockService _stockService;
+        
+        public CreateMilkCollectionCommandHandler(IMilkCollectionService milkCollectionService, ILogger<CreateMilkCollectionCommandHandler> logger, IStockService stockService)
         {
             _milkCollectionService = milkCollectionService;
             _logger = logger;
+            _stockService = stockService;
         }
 
         public async Task<DataResult<CreateMilkCollectionCommandResponse>> Handle(CreateMilkCollectionCommandRequest request, CancellationToken cancellationToken)
         {
             try
             {
-                await _milkCollectionService.AddMilkCollectionAsync(request.Quantity, request.FatRate, request.ProteinRate, request.Note, request.Status, request.SupplierId,
+               var milkCollection = await _milkCollectionService.AddMilkCollectionAsync(request.Quantity, request.FatRate, request.ProteinRate, request.Note, request.Status, request.SupplierId,
                     request.CollectorEmployeeId, request.QualityEmployeeId);
+                try
+                {
+                   if(request.Status == true)
+                    {
+                        var milkQuantity = await _stockService.GetQuantityStockAsync();
+                        await _stockService.AddStockAsync(ProductName.Milk, request.Quantity + milkQuantity, Domain.Enums.Unit.Liter, milkCollection, ReferenceType.MilkCollection, DateTime.Now);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Stock kaydı sırasında bir hata oluştu. Hata kodu = ");
+                    return new ErrorDataResult<CreateMilkCollectionCommandResponse>("stock kaydı sırasında bir hata oluştu. Hata kodu = " + ex);
+                }
                 _logger.LogInformation("MilkCollection kaydı başarılı");
                 return new SuccessDataResult<CreateMilkCollectionCommandResponse>(null, "MilkCollection kaydı başarılı");
 

@@ -20,10 +20,16 @@ namespace Mini_ERP.Persistence
         {
             services.AddDbContext<Mini_ErpAPIContext>(options => options.UseOracle(Configuration.ConnectionString));
 
+
+            //////////////////////////SERVİCES///////////////////
             services.AddScoped<ISupplierService, SupplierService>();
             services.AddScoped<IEmployeeService, EmployeeService>();
             services.AddScoped<IMilkCollectionService, MilkCollectionService>();
+            services.AddScoped<IStockService , StockService >();
+            services.AddScoped<IProductionService, ProductionService>();
 
+
+            ///////////////////// REPOS ///////////////////
             services.AddScoped<ISupplierReadRepository, SupplierReadRepository>();
             services.AddScoped<ISupplierWriteRepository, SupplierWriteRepository>();
             services.AddScoped<IEmployeeReadRepository, EmployeeReadRepository>();
@@ -32,6 +38,8 @@ namespace Mini_ERP.Persistence
             services.AddScoped<IMilkCollectionWriteRepository, MilkCollectionWriteRepository>();
             services.AddScoped<IStockReadRepository, StockReadRepository>();
             services.AddScoped<IStockWriteRepository, StockWriteRepository>();
+            services.AddScoped<IProductionReadRepository, ProductionReadRepository>();
+            services.AddScoped<IProductionWriteRepository, ProductionWriteRepository>();
         }
     }
 }

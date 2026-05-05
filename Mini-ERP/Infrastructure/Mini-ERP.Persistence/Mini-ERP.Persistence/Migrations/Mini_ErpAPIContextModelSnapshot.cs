@@ -290,6 +290,39 @@ namespace Mini_ERP.Persistence.Migrations
                     b.ToTable("MilkCollections");
                 });
 
+            modelBuilder.Entity("Mini_ERP.Domain.Entities.Production", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("ConsumedMilkQuantity")
+                        .HasColumnType("DECIMAL(18, 2)");
+
+                    b.Property<decimal>("OutputQuantity")
+                        .HasColumnType("DECIMAL(18, 2)");
+
+                    b.Property<DateTime>("ProductDate")
+                        .HasColumnType("TIMESTAMP(7)");
+
+                    b.Property<int>("ProductName")
+                        .HasColumnType("NUMBER(10)");
+
+                    b.Property<int>("ProductionEmployeeId")
+                        .HasColumnType("NUMBER(10)");
+
+                    b.Property<int>("Unit")
+                        .HasColumnType("NUMBER(10)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductionEmployeeId");
+
+                    b.ToTable("Production");
+                });
+
             modelBuilder.Entity("Mini_ERP.Domain.Entities.Stock", b =>
                 {
                     b.Property<int>("Id")
@@ -301,9 +334,8 @@ namespace Mini_ERP.Persistence.Migrations
                     b.Property<DateTime>("LastUpdated")
                         .HasColumnType("TIMESTAMP(7)");
 
-                    b.Property<string>("ProductName")
-                        .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                    b.Property<int>("ProductName")
+                        .HasColumnType("NUMBER(10)");
 
                     b.Property<decimal>("Quantity")
                         .HasColumnType("DECIMAL(18, 2)");
@@ -314,9 +346,8 @@ namespace Mini_ERP.Persistence.Migrations
                     b.Property<int>("ReferenceType")
                         .HasColumnType("NUMBER(10)");
 
-                    b.Property<string>("Unit")
-                        .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)");
+                    b.Property<int>("Unit")
+                        .HasColumnType("NUMBER(10)");
 
                     b.HasKey("Id");
 
@@ -432,9 +463,22 @@ namespace Mini_ERP.Persistence.Migrations
                     b.Navigation("Supplier");
                 });
 
+            modelBuilder.Entity("Mini_ERP.Domain.Entities.Production", b =>
+                {
+                    b.HasOne("Mini_ERP.Domain.Entities.Employee", "ProductionEmployee")
+                        .WithMany("ProductionEmployee")
+                        .HasForeignKey("ProductionEmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ProductionEmployee");
+                });
+
             modelBuilder.Entity("Mini_ERP.Domain.Entities.Employee", b =>
                 {
                     b.Navigation("CollectedMilkCollections");
+
+                    b.Navigation("ProductionEmployee");
 
                     b.Navigation("QualityMilkCollections");
                 });

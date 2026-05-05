@@ -11,9 +11,9 @@ namespace Mini_ERP.Application.Abstractions.Services
     public interface IStockService
     {
 
-        Task<bool> AddStockAsync(string ProductName, decimal Quantity, string Unit, int ReferenceId, ReferenceType referenceType, DateTime LastUpdated);
+        Task<bool> AddStockAsync(ProductName ProductName, decimal Quantity, Unit Unit, int ReferenceId, ReferenceType referenceType, DateTime LastUpdated);
         Task<List<Stock>> GetAllAsync();
-
+        Task<decimal> GetQuantityStockAsync();
 
     }
 

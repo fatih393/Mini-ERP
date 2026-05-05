@@ -1,0 +1,524 @@
+2026-05-05 14:44:14.429 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-05 14:44:14.578 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-05 14:44:14.578 +03:00 [INF] Hosting environment: Development
+2026-05-05 14:44:14.578 +03:00 [INF] Content root path: C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Presentation\Mini-ERP.API\Mini-ERP.API
+2026-05-05 14:44:14.909 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger - null null
+2026-05-05 14:44:15.026 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger - 301 0 null 123.402ms
+2026-05-05 14:44:15.027 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-05 14:44:15.077 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 200 null text/html;charset=utf-8 50.3936ms
+2026-05-05 14:44:15.099 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - null null
+2026-05-05 14:44:15.100 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - null null
+2026-05-05 14:44:15.100 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-05 14:44:15.110 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-05 14:44:15.111 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_vs/browserLink - null null
+2026-05-05 14:44:15.115 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 4.5321ms
+2026-05-05 14:44:15.169 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-05-05 14:44:15.169 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-05-05 14:44:15.171 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 71.1801ms
+2026-05-05 14:44:15.171 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - 200 143943 text/css 72.1262ms
+2026-05-05 14:44:15.183 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-05-05 14:44:15.183 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 83.4195ms
+2026-05-05 14:44:15.209 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.8292ms
+2026-05-05 14:44:15.303 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-05 14:44:15.402 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 99.1439ms
+2026-05-05 14:44:40.526 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:40.544 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:40.544 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:40.544 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:46.903 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:46.920 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:46.920 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:46.920 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:47.001 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:47.001 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:47.001 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:47.001 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:57.665 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:57.682 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:57.682 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:57.682 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:44:58.215 +03:00 [INF] Executed DbCommand (102ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT t.table_name FROM user_tables t WHERE t.table_name = N'__EFMigrationsHistory'
+2026-05-05 14:44:58.218 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT t.table_name FROM user_tables t WHERE t.table_name = N'__EFMigrationsHistory'
+2026-05-05 14:44:58.232 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"
+2026-05-05 14:44:58.242 +03:00 [INF] Applying migration '20260505114447_mig_4'.
+2026-05-05 14:44:58.398 +03:00 [INF] Executed DbCommand (132ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'Stocks' 
+  and column_name = 'Unit' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "Stocks" MODIFY "Unit" NUMBER(10) ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "Stocks" MODIFY "Unit" NUMBER(10) NOT NULL';
+ end if;
+end;
+2026-05-05 14:44:58.459 +03:00 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'Stocks' 
+  and column_name = 'Quantity' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "Stocks" MODIFY "Quantity"  ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "Stocks" MODIFY "Quantity"  NOT NULL';
+ end if;
+end;
+2026-05-05 14:44:58.515 +03:00 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'Stocks' 
+  and column_name = 'ProductName' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "Stocks" MODIFY "ProductName" NUMBER(10) ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "Stocks" MODIFY "ProductName" NUMBER(10) NOT NULL';
+ end if;
+end;
+2026-05-05 14:44:58.573 +03:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'MilkCollections' 
+  and column_name = 'Quantity' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "Quantity"  ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "Quantity"  NOT NULL';
+ end if;
+end;
+2026-05-05 14:44:58.629 +03:00 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'MilkCollections' 
+  and column_name = 'ProteinRate' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "ProteinRate"  ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "ProteinRate"  NOT NULL';
+ end if;
+end;
+2026-05-05 14:44:58.684 +03:00 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'MilkCollections' 
+  and column_name = 'FatRate' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "FatRate"  ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "FatRate"  NOT NULL';
+ end if;
+end;
+2026-05-05 14:44:58.690 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES (N'20260505114447_mig_4', N'8.0.0')
+2026-05-05 14:45:03.623 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-05 14:45:03.718 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-05 14:45:03.718 +03:00 [INF] Hosting environment: Development
+2026-05-05 14:45:03.718 +03:00 [INF] Content root path: C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Presentation\Mini-ERP.API\Mini-ERP.API
+2026-05-05 14:45:03.945 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-05 14:45:04.044 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 200 null text/html;charset=utf-8 101.7631ms
+2026-05-05 14:45:04.078 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_vs/browserLink - null null
+2026-05-05 14:45:04.078 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-05 14:45:04.080 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 2.5168ms
+2026-05-05 14:45:04.102 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.7979ms
+2026-05-05 14:45:04.173 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-05 14:45:04.247 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.54ms
+2026-05-05 14:45:48.761 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Employee - null null
+2026-05-05 14:45:48.766 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-05 14:45:48.775 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.EmployeeController.GetEmployees (Mini-ERP.API)'
+2026-05-05 14:45:48.798 +03:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees(Mini_ERP.Application.Features.Queries.Employee.GetEmployee.GetEmployeeQueryRequest) on controller Mini_ERP.API.Controllers.EmployeeController (Mini-ERP.API).
+2026-05-05 14:45:49.352 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:45:49.352 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:45:49.352 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:45:49.352 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 14:45:49.971 +03:00 [INF] Executed DbCommand (89ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "e"."Id", "e"."Name", "e"."Phone", "e"."Role"
+FROM "Employees" "e"
+2026-05-05 14:45:49.993 +03:00 [INF] Employees listelendi
+2026-05-05 14:45:49.998 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Employee.GetEmployee.GetEmployeeQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-05 14:45:50.011 +03:00 [INF] Executed action Mini_ERP.API.Controllers.EmployeeController.GetEmployees (Mini-ERP.API) in 1211.636ms
+2026-05-05 14:45:50.012 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.EmployeeController.GetEmployees (Mini-ERP.API)'
+2026-05-05 14:45:50.017 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Employee - 200 null application/json; charset=utf-8 1255.967ms
+2026-05-05 14:46:03.835 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Supplier - null null
+2026-05-05 14:46:03.837 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.SupplierController.GetSupplier (Mini-ERP.API)'
+2026-05-05 14:46:03.841 +03:00 [INF] Route matched with {action = "GetSupplier", controller = "Supplier"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSupplier(Mini_ERP.Application.Features.Queries.Supplier.GetSupplier.GetSupplierQueryRequest) on controller Mini_ERP.API.Controllers.SupplierController (Mini-ERP.API).
+2026-05-05 14:46:03.904 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "s"."Id", "s"."Address", "s"."CreateDate", "s"."Location", "s"."Name", "s"."Phone"
+FROM "Suppliers" "s"
+2026-05-05 14:46:03.907 +03:00 [INF] Listeleme başarılı...
+2026-05-05 14:46:03.907 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Supplier.GetSupplier.GetSupplierQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-05 14:46:03.912 +03:00 [INF] Executed action Mini_ERP.API.Controllers.SupplierController.GetSupplier (Mini-ERP.API) in 70.2479ms
+2026-05-05 14:46:03.912 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.SupplierController.GetSupplier (Mini-ERP.API)'
+2026-05-05 14:46:03.912 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Supplier - 200 null application/json; charset=utf-8 77.1311ms
+2026-05-05 14:46:53.496 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/MilkCollection - application/json 177
+2026-05-05 14:46:53.496 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.MilkCollectionController.AddMilkCollection (Mini-ERP.API)'
+2026-05-05 14:46:53.500 +03:00 [INF] Route matched with {action = "AddMilkCollection", controller = "MilkCollection"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMilkCollection(Mini_ERP.Application.Features.Commands.MilkCollection.CreateMilkCollection.CreateMilkCollectionCommandRequest) on controller Mini_ERP.API.Controllers.MilkCollectionController (Mini-ERP.API).
+2026-05-05 14:46:53.771 +03:00 [INF] Executed DbCommand (65ms) [Parameters=[:p0='?' (DbType = Int32), :p1='?' (DbType = DateTime), :p2='?' (DbType = Decimal), :p3='?' (Size = 2000), :p4='?' (DbType = Decimal), :p5='?' (DbType = Int32), :p6='?' (DbType = Decimal), :p7='?' (DbType = Byte), :p8='?' (DbType = Int32), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+TYPE "rMilkCollections_0" IS RECORD
+(
+"Id" NUMBER(10)
+);
+TYPE "tMilkCollections_0" IS TABLE OF "rMilkCollections_0";
+"lMilkCollections_0" "tMilkCollections_0";
+
+BEGIN
+
+"lMilkCollections_0" := "tMilkCollections_0"();
+"lMilkCollections_0".extend(1);
+INSERT INTO "MilkCollections" ("CollectorEmployeeId", "Date", "FatRate", "Note", "ProteinRate", "QualityEmployeeId", "Quantity", "Status", "SupplierId")
+VALUES (:p0, :p1, :p2, :p3, :p4, :p5, :p6, :p7, :p8)
+RETURNING "Id" INTO "lMilkCollections_0"(1)."Id";
+OPEN :cur0 FOR SELECT "lMilkCollections_0"(1)."Id" FROM DUAL;
+
+END;
+2026-05-05 14:46:53.856 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[:p0='?' (DbType = DateTime), :p1='?' (DbType = Int32), :p2='?' (DbType = Decimal), :p3='?' (DbType = Int32), :p4='?' (DbType = Int32), :p5='?' (DbType = Int32), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+TYPE "rStocks_0" IS RECORD
+(
+"Id" NUMBER(10)
+);
+TYPE "tStocks_0" IS TABLE OF "rStocks_0";
+"lStocks_0" "tStocks_0";
+
+BEGIN
+
+"lStocks_0" := "tStocks_0"();
+"lStocks_0".extend(1);
+INSERT INTO "Stocks" ("LastUpdated", "ProductName", "Quantity", "ReferenceId", "ReferenceType", "Unit")
+VALUES (:p0, :p1, :p2, :p3, :p4, :p5)
+RETURNING "Id" INTO "lStocks_0"(1)."Id";
+OPEN :cur0 FOR SELECT "lStocks_0"(1)."Id" FROM DUAL;
+
+END;
+2026-05-05 14:46:53.860 +03:00 [INF] MilkCollection kaydı başarılı
+2026-05-05 14:46:53.860 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Commands.MilkCollection.CreateMilkCollection.CreateMilkCollectionCommandResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-05 14:46:53.862 +03:00 [INF] Executed action Mini_ERP.API.Controllers.MilkCollectionController.AddMilkCollection (Mini-ERP.API) in 361.0379ms
+2026-05-05 14:46:53.862 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.MilkCollectionController.AddMilkCollection (Mini-ERP.API)'
+2026-05-05 14:46:53.862 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/MilkCollection - 200 null application/json; charset=utf-8 366.6993ms
+2026-05-05 14:47:40.191 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/MilkCollection - null null
+2026-05-05 14:47:40.192 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.MilkCollectionController.GetMilkCollection (Mini-ERP.API)'
+2026-05-05 14:47:40.197 +03:00 [INF] Route matched with {action = "GetMilkCollection", controller = "MilkCollection"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMilkCollection(Mini_ERP.Application.Features.Queries.MilkCollection.GetMilkCollection.GetMilkCollectionRequest) on controller Mini_ERP.API.Controllers.MilkCollectionController (Mini-ERP.API).
+2026-05-05 14:47:40.302 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "m"."Id", "m"."Date", "m"."Quantity", "m"."FatRate", "m"."ProteinRate", "m"."Note", "m"."Status", "m"."SupplierId", "s"."Name" "SupplierName", "m"."CollectorEmployeeId", "e"."Name" "CollectorEmployeeName", "m"."QualityEmployeeId", "e0"."Name" "QualityEmployeeName"
+FROM "MilkCollections" "m"
+INNER JOIN "Suppliers" "s" ON "m"."SupplierId" = "s"."Id"
+INNER JOIN "Employees" "e" ON "m"."CollectorEmployeeId" = "e"."Id"
+LEFT JOIN "Employees" "e0" ON "m"."QualityEmployeeId" = "e0"."Id"
+2026-05-05 14:47:40.313 +03:00 [INF] MilkCollection listeleme başarılı
+2026-05-05 14:47:40.314 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.MilkCollection.GetMilkCollection.GetMilkCollectionResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-05 14:47:40.319 +03:00 [INF] Executed action Mini_ERP.API.Controllers.MilkCollectionController.GetMilkCollection (Mini-ERP.API) in 122.0211ms
+2026-05-05 14:47:40.319 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.MilkCollectionController.GetMilkCollection (Mini-ERP.API)'
+2026-05-05 14:47:40.319 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/MilkCollection - 200 null application/json; charset=utf-8 128.2286ms
+2026-05-05 15:02:12.419 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-05 15:02:12.532 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-05 15:02:12.532 +03:00 [INF] Hosting environment: Development
+2026-05-05 15:02:12.532 +03:00 [INF] Content root path: C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Presentation\Mini-ERP.API\Mini-ERP.API
+2026-05-05 15:02:12.764 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-05 15:02:12.893 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 200 null text/html;charset=utf-8 135.099ms
+2026-05-05 15:02:12.970 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-05 15:02:12.970 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_vs/browserLink - null null
+2026-05-05 15:02:12.972 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 2.4085ms
+2026-05-05 15:02:13.003 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.5763ms
+2026-05-05 15:02:13.048 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-05 15:02:13.212 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 163.7366ms
+2026-05-05 15:02:20.373 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Stock - null null
+2026-05-05 15:02:20.378 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-05 15:02:20.381 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API)'
+2026-05-05 15:02:20.401 +03:00 [INF] Route matched with {action = "GetStockAll", controller = "Stock"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStockAll(Mini_ERP.Application.Features.Queries.Stock.GetStock.GetStockQueryRequest) on controller Mini_ERP.API.Controllers.StockController (Mini-ERP.API).
+2026-05-05 15:02:20.936 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:02:20.937 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:02:20.937 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:02:20.937 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:02:21.566 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "s"."Id", "s"."LastUpdated", "s"."ProductName", "s"."Quantity", "s"."ReferenceId", "s"."ReferenceType", "s"."Unit"
+FROM "Stocks" "s"
+2026-05-05 15:02:21.616 +03:00 [INF] Listeleme başarılı...
+2026-05-05 15:02:21.621 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Stock.GetStock.GetStockQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-05 15:02:21.646 +03:00 [INF] Executed action Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API) in 1242.7822ms
+2026-05-05 15:02:21.647 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API)'
+2026-05-05 15:02:21.653 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Stock - 200 null application/json; charset=utf-8 1279.9282ms
+2026-05-05 15:17:25.383 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-05 15:17:25.481 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-05 15:17:25.481 +03:00 [INF] Hosting environment: Development
+2026-05-05 15:17:25.481 +03:00 [INF] Content root path: C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Presentation\Mini-ERP.API\Mini-ERP.API
+2026-05-05 15:17:25.751 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-05 15:17:25.851 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 200 null text/html;charset=utf-8 104.4077ms
+2026-05-05 15:17:25.881 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-05 15:17:25.881 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_vs/browserLink - null null
+2026-05-05 15:17:25.883 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 2.0365ms
+2026-05-05 15:17:25.907 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.0739ms
+2026-05-05 15:17:25.938 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-05 15:17:26.010 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.1771ms
+2026-05-05 15:18:08.299 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/MilkCollection - application/json 184
+2026-05-05 15:18:08.311 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-05 15:18:08.314 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.MilkCollectionController.AddMilkCollection (Mini-ERP.API)'
+2026-05-05 15:18:08.333 +03:00 [INF] Route matched with {action = "AddMilkCollection", controller = "MilkCollection"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMilkCollection(Mini_ERP.Application.Features.Commands.MilkCollection.CreateMilkCollection.CreateMilkCollectionCommandRequest) on controller Mini_ERP.API.Controllers.MilkCollectionController (Mini-ERP.API).
+2026-05-05 15:18:08.929 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:18:08.930 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:18:08.930 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:18:08.931 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:18:09.596 +03:00 [INF] Executed DbCommand (106ms) [Parameters=[:p0='?' (DbType = Int32), :p1='?' (DbType = DateTime), :p2='?' (DbType = Decimal), :p3='?' (Size = 2000), :p4='?' (DbType = Decimal), :p5='?' (DbType = Int32), :p6='?' (DbType = Decimal), :p7='?' (DbType = Byte), :p8='?' (DbType = Int32), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+TYPE "rMilkCollections_0" IS RECORD
+(
+"Id" NUMBER(10)
+);
+TYPE "tMilkCollections_0" IS TABLE OF "rMilkCollections_0";
+"lMilkCollections_0" "tMilkCollections_0";
+
+BEGIN
+
+"lMilkCollections_0" := "tMilkCollections_0"();
+"lMilkCollections_0".extend(1);
+INSERT INTO "MilkCollections" ("CollectorEmployeeId", "Date", "FatRate", "Note", "ProteinRate", "QualityEmployeeId", "Quantity", "Status", "SupplierId")
+VALUES (:p0, :p1, :p2, :p3, :p4, :p5, :p6, :p7, :p8)
+RETURNING "Id" INTO "lMilkCollections_0"(1)."Id";
+OPEN :cur0 FOR SELECT "lMilkCollections_0"(1)."Id" FROM DUAL;
+
+END;
+2026-05-05 15:18:09.841 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "s"."Quantity"
+FROM "Stocks" "s"
+WHERE "s"."ProductName" = 0
+ORDER BY "s"."LastUpdated" DESC
+FETCH FIRST 1 ROWS ONLY
+2026-05-05 15:18:09.890 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[:p0='?' (DbType = DateTime), :p1='?' (DbType = Int32), :p2='?' (DbType = Decimal), :p3='?' (DbType = Int32), :p4='?' (DbType = Int32), :p5='?' (DbType = Int32), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+TYPE "rStocks_0" IS RECORD
+(
+"Id" NUMBER(10)
+);
+TYPE "tStocks_0" IS TABLE OF "rStocks_0";
+"lStocks_0" "tStocks_0";
+
+BEGIN
+
+"lStocks_0" := "tStocks_0"();
+"lStocks_0".extend(1);
+INSERT INTO "Stocks" ("LastUpdated", "ProductName", "Quantity", "ReferenceId", "ReferenceType", "Unit")
+VALUES (:p0, :p1, :p2, :p3, :p4, :p5)
+RETURNING "Id" INTO "lStocks_0"(1)."Id";
+OPEN :cur0 FOR SELECT "lStocks_0"(1)."Id" FROM DUAL;
+
+END;
+2026-05-05 15:18:09.895 +03:00 [INF] MilkCollection kaydı başarılı
+2026-05-05 15:18:09.902 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Commands.MilkCollection.CreateMilkCollection.CreateMilkCollectionCommandResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-05 15:18:09.907 +03:00 [INF] Executed action Mini_ERP.API.Controllers.MilkCollectionController.AddMilkCollection (Mini-ERP.API) in 1571.108ms
+2026-05-05 15:18:09.907 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.MilkCollectionController.AddMilkCollection (Mini-ERP.API)'
+2026-05-05 15:18:09.912 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/MilkCollection - 200 null application/json; charset=utf-8 1613.0324ms
+2026-05-05 15:18:17.190 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Stock - null null
+2026-05-05 15:18:17.191 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API)'
+2026-05-05 15:18:17.197 +03:00 [INF] Route matched with {action = "GetStockAll", controller = "Stock"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStockAll(Mini_ERP.Application.Features.Queries.Stock.GetStock.GetStockQueryRequest) on controller Mini_ERP.API.Controllers.StockController (Mini-ERP.API).
+2026-05-05 15:18:17.273 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "s"."Id", "s"."LastUpdated", "s"."ProductName", "s"."Quantity", "s"."ReferenceId", "s"."ReferenceType", "s"."Unit"
+FROM "Stocks" "s"
+2026-05-05 15:18:17.278 +03:00 [INF] Listeleme başarılı...
+2026-05-05 15:18:17.279 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Stock.GetStock.GetStockQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-05 15:18:17.298 +03:00 [INF] Executed action Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API) in 100.9753ms
+2026-05-05 15:18:17.299 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API)'
+2026-05-05 15:18:17.299 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Stock - 200 null application/json; charset=utf-8 109.742ms
+2026-05-05 15:18:34.628 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/MilkCollection - application/json 184
+2026-05-05 15:18:34.629 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.MilkCollectionController.AddMilkCollection (Mini-ERP.API)'
+2026-05-05 15:18:34.629 +03:00 [INF] Route matched with {action = "AddMilkCollection", controller = "MilkCollection"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMilkCollection(Mini_ERP.Application.Features.Commands.MilkCollection.CreateMilkCollection.CreateMilkCollectionCommandRequest) on controller Mini_ERP.API.Controllers.MilkCollectionController (Mini-ERP.API).
+2026-05-05 15:18:34.651 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[:p0='?' (DbType = Int32), :p1='?' (DbType = DateTime), :p2='?' (DbType = Decimal), :p3='?' (Size = 2000), :p4='?' (DbType = Decimal), :p5='?' (DbType = Int32), :p6='?' (DbType = Decimal), :p7='?' (DbType = Byte), :p8='?' (DbType = Int32), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+TYPE "rMilkCollections_0" IS RECORD
+(
+"Id" NUMBER(10)
+);
+TYPE "tMilkCollections_0" IS TABLE OF "rMilkCollections_0";
+"lMilkCollections_0" "tMilkCollections_0";
+
+BEGIN
+
+"lMilkCollections_0" := "tMilkCollections_0"();
+"lMilkCollections_0".extend(1);
+INSERT INTO "MilkCollections" ("CollectorEmployeeId", "Date", "FatRate", "Note", "ProteinRate", "QualityEmployeeId", "Quantity", "Status", "SupplierId")
+VALUES (:p0, :p1, :p2, :p3, :p4, :p5, :p6, :p7, :p8)
+RETURNING "Id" INTO "lMilkCollections_0"(1)."Id";
+OPEN :cur0 FOR SELECT "lMilkCollections_0"(1)."Id" FROM DUAL;
+
+END;
+2026-05-05 15:18:34.661 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "s"."Quantity"
+FROM "Stocks" "s"
+WHERE "s"."ProductName" = 0
+ORDER BY "s"."LastUpdated" DESC
+FETCH FIRST 1 ROWS ONLY
+2026-05-05 15:18:34.667 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[:p0='?' (DbType = DateTime), :p1='?' (DbType = Int32), :p2='?' (DbType = Decimal), :p3='?' (DbType = Int32), :p4='?' (DbType = Int32), :p5='?' (DbType = Int32), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+TYPE "rStocks_0" IS RECORD
+(
+"Id" NUMBER(10)
+);
+TYPE "tStocks_0" IS TABLE OF "rStocks_0";
+"lStocks_0" "tStocks_0";
+
+BEGIN
+
+"lStocks_0" := "tStocks_0"();
+"lStocks_0".extend(1);
+INSERT INTO "Stocks" ("LastUpdated", "ProductName", "Quantity", "ReferenceId", "ReferenceType", "Unit")
+VALUES (:p0, :p1, :p2, :p3, :p4, :p5)
+RETURNING "Id" INTO "lStocks_0"(1)."Id";
+OPEN :cur0 FOR SELECT "lStocks_0"(1)."Id" FROM DUAL;
+
+END;
+2026-05-05 15:18:34.668 +03:00 [INF] MilkCollection kaydı başarılı
+2026-05-05 15:18:34.668 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Commands.MilkCollection.CreateMilkCollection.CreateMilkCollectionCommandResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-05 15:18:34.669 +03:00 [INF] Executed action Mini_ERP.API.Controllers.MilkCollectionController.AddMilkCollection (Mini-ERP.API) in 39.4353ms
+2026-05-05 15:18:34.669 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.MilkCollectionController.AddMilkCollection (Mini-ERP.API)'
+2026-05-05 15:18:34.669 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/MilkCollection - 200 null application/json; charset=utf-8 40.9254ms
+2026-05-05 15:18:41.190 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Stock - null null
+2026-05-05 15:18:41.191 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API)'
+2026-05-05 15:18:41.191 +03:00 [INF] Route matched with {action = "GetStockAll", controller = "Stock"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStockAll(Mini_ERP.Application.Features.Queries.Stock.GetStock.GetStockQueryRequest) on controller Mini_ERP.API.Controllers.StockController (Mini-ERP.API).
+2026-05-05 15:18:41.203 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "s"."Id", "s"."LastUpdated", "s"."ProductName", "s"."Quantity", "s"."ReferenceId", "s"."ReferenceType", "s"."Unit"
+FROM "Stocks" "s"
+2026-05-05 15:18:41.204 +03:00 [INF] Listeleme başarılı...
+2026-05-05 15:18:41.205 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Stock.GetStock.GetStockQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-05 15:18:41.205 +03:00 [INF] Executed action Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API) in 14.1083ms
+2026-05-05 15:18:41.205 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API)'
+2026-05-05 15:18:41.206 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Stock - 200 null application/json; charset=utf-8 15.9689ms
+2026-05-05 15:48:15.611 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:15.628 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:15.628 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:15.628 +03:00 [WRN] The decimal property 'ConsumedMilkQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:15.628 +03:00 [WRN] The decimal property 'OutputQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:15.628 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:15.715 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:15.716 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:15.716 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:15.716 +03:00 [WRN] The decimal property 'ConsumedMilkQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:15.716 +03:00 [WRN] The decimal property 'OutputQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:15.716 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:20.100 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:20.117 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:20.117 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:20.117 +03:00 [WRN] The decimal property 'ConsumedMilkQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:20.117 +03:00 [WRN] The decimal property 'OutputQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:20.117 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-05 15:48:20.459 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT t.table_name FROM user_tables t WHERE t.table_name = N'__EFMigrationsHistory'
+2026-05-05 15:48:20.461 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT t.table_name FROM user_tables t WHERE t.table_name = N'__EFMigrationsHistory'
+2026-05-05 15:48:20.467 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"
+2026-05-05 15:48:20.476 +03:00 [INF] Applying migration '20260505124815_mig_5'.
+2026-05-05 15:48:20.525 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'Stocks' 
+  and column_name = 'Quantity' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "Stocks" MODIFY "Quantity"  ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "Stocks" MODIFY "Quantity"  NOT NULL';
+ end if;
+end;
+2026-05-05 15:48:20.528 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'MilkCollections' 
+  and column_name = 'Quantity' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "Quantity"  ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "Quantity"  NOT NULL';
+ end if;
+end;
+2026-05-05 15:48:20.531 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'MilkCollections' 
+  and column_name = 'ProteinRate' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "ProteinRate"  ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "ProteinRate"  NOT NULL';
+ end if;
+end;
+2026-05-05 15:48:20.534 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'MilkCollections' 
+  and column_name = 'FatRate' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "FatRate"  ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "FatRate"  NOT NULL';
+ end if;
+end;
+2026-05-05 15:48:20.615 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+BEGIN 
+EXECUTE IMMEDIATE 'CREATE TABLE 
+"Production" (
+    "Id" NUMBER(10) GENERATED BY DEFAULT ON NULL AS IDENTITY NOT NULL,
+    "ProductName" NUMBER(10) NOT NULL,
+    "ProductionEmployeeId" NUMBER(10) NOT NULL,
+    "OutputQuantity" DECIMAL(18, 2) NOT NULL,
+    "Unit" NUMBER(10) NOT NULL,
+    "ConsumedMilkQuantity" DECIMAL(18, 2) NOT NULL,
+    "ProductDate" TIMESTAMP(7) NOT NULL,
+    CONSTRAINT "PK_Production" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_Production_Employees_ProductionEmployeeId" FOREIGN KEY ("ProductionEmployeeId") REFERENCES "Employees" ("Id") ON DELETE CASCADE
+)';
+END;
+2026-05-05 15:48:20.619 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+CREATE INDEX "IX_Production_ProductionEmployeeId" ON "Production" ("ProductionEmployeeId")
+2026-05-05 15:48:20.620 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES (N'20260505124815_mig_5', N'8.0.0')

@@ -22,15 +22,15 @@ namespace Mini_ERP.Persistence.Services
             _stockReadRepository = stockReadRepository;
         }
 
-        public async Task<bool> AddStockAsync(string ProductName, decimal Quantity, string Unit, int ReferenceId, ReferenceType referenceType, DateTime LastUpdated)
+        public async Task<bool> AddStockAsync(ProductName ProductName, decimal Quantity, Unit Unit, int ReferenceId, ReferenceType referenceType, DateTime LastUpdated)
         {
             try
             {
                 var newStock = new Stock
                 {
-                    ProductName = ProductName,
+                    ProductName = ProductName.Milk,
                     Quantity = Quantity,
-                    Unit = Unit,
+                    Unit = Unit.Liter,
                     ReferenceId = ReferenceId,
                     ReferenceType = referenceType,
                     LastUpdated = DateTime.Now,
@@ -55,6 +55,23 @@ namespace Mini_ERP.Persistence.Services
             catch (Exception ex)
             {
                 return null;
+            }
+        }
+        public async Task<decimal> GetQuantityStockAsync()
+        {
+            try
+            {
+                var quantity = await _stockReadRepository
+                    .GetWhere(x => x.ProductName == ProductName.Milk)
+                    .OrderByDescending(x => x.LastUpdated)
+                    .Select(x => x.Quantity)
+                    .FirstOrDefaultAsync();
+
+                return quantity;
+            }
+            catch (Exception)
+            {
+                throw;
             }
         }
     }

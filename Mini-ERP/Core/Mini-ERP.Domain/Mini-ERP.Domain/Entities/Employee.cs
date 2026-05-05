@@ -15,7 +15,7 @@ namespace Mini_ERP.Domain.Entities
         public EmployeeRole Role { get; set; }
         public ICollection<MilkCollection> CollectedMilkCollections { get; set; }
 
-        // 🔥 1 Employee -> many quality checked milk
+        public ICollection<Production> ProductionEmployee { get; set; }
         public ICollection<MilkCollection> QualityMilkCollections { get; set; } 
 
 

@@ -160,6 +160,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Mini_ERP.API.Controllers.StockController",
+    "Method": "GetStockAll",
+    "RelativePath": "api/Stock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getStockQueryRequest",
+        "Type": "Mini_ERP.Application.Features.Queries.Stock.GetStock.GetStockQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Mini_ERP.API.Controllers.SupplierController",
     "Method": "AddSupplier",
     "RelativePath": "api/Supplier",
