@@ -144,12 +144,12 @@
         }
       }
     },
-    "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\Mini-EEP.Infrastructure.csproj": {
+    "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\Mini-ERP.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\Mini-EEP.Infrastructure.csproj",
-        "projectName": "Mini-EEP.Infrastructure",
-        "projectPath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\Mini-EEP.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\Mini-ERP.Infrastructure.csproj",
+        "projectName": "Mini-ERP.Infrastructure",
+        "projectPath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\Mini-ERP.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
@@ -189,6 +189,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -347,8 +353,8 @@
               "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj": {
                 "projectPath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj"
               },
-              "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\Mini-EEP.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\Mini-EEP.Infrastructure.csproj"
+              "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\Mini-ERP.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Infrastructure\\Mini-EEP.Infrastructure\\Mini-ERP.Infrastructure.csproj"
               },
               "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj": {
                 "projectPath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj"

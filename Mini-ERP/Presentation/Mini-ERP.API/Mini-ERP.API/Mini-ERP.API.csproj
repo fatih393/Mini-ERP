@@ -24,7 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Core\Mini-ERP.Application\Mini-ERP.Application\Mini-ERP.Application.csproj" />
-    <ProjectReference Include="..\..\..\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\Mini-EEP.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\Mini-ERP.Infrastructure.csproj" />
     <ProjectReference Include="..\..\..\Infrastructure\Mini-ERP.Persistence\Mini-ERP.Persistence\Mini-ERP.Persistence.csproj" />
   </ItemGroup>
 

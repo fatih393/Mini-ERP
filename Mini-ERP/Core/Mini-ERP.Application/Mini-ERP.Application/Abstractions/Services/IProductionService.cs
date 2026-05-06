@@ -1,4 +1,5 @@
-﻿using Mini_ERP.Domain.Entities;
+﻿using Mini_ERP.Application.DTOs.GetProduction;
+using Mini_ERP.Domain.Entities;
 using Mini_ERP.Domain.Enums;
 using System;
 using System.Collections.Generic;
@@ -11,8 +12,10 @@ namespace Mini_ERP.Application.Abstractions.Services
     public interface IProductionService
     {
         Task<int> AddProductionAsync(ProductName productName, int ProductionEmployeeId, decimal OutputQuantity, Unit unit, decimal ConsumedMilkQuantity, DateTime ProductDate);
-        Task<List<Production>> GetProductionAsync();
-    
+        Task<List<ProductionDto>> GetProductionAsync();
+        Task<bool> UpdateProductionAsync(int id, decimal OutputQuantity, decimal ConsumedMilkQuantity, Unit Unit);
+        Task<byte[]> QrCodeToProductionAsync(int ProductionId);
+
     }
 
 

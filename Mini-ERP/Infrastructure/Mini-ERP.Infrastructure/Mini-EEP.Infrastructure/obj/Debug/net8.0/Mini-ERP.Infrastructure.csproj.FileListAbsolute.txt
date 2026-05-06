@@ -1,0 +1,17 @@
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\bin\Debug\net8.0\Mini-ERP.Infrastructure.deps.json
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\bin\Debug\net8.0\Mini-ERP.Infrastructure.dll
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\bin\Debug\net8.0\Mini-ERP.Infrastructure.pdb
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\bin\Debug\net8.0\Mini-ERP.Application.dll
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\bin\Debug\net8.0\Mini-ERP.Domain.dll
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\bin\Debug\net8.0\Mini-ERP.Application.pdb
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\bin\Debug\net8.0\Mini-ERP.Domain.pdb
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\obj\Debug\net8.0\Mini-ERP.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\obj\Debug\net8.0\Mini-ERP.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\obj\Debug\net8.0\Mini-ERP.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\obj\Debug\net8.0\Mini-ERP.Infrastructure.AssemblyInfo.cs
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\obj\Debug\net8.0\Mini-ERP.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\obj\Debug\net8.0\Mini-ERP.FBC8E594.Up2Date
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\obj\Debug\net8.0\Mini-ERP.Infrastructure.dll
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\obj\Debug\net8.0\refint\Mini-ERP.Infrastructure.dll
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\obj\Debug\net8.0\Mini-ERP.Infrastructure.pdb
+C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\obj\Debug\net8.0\ref\Mini-ERP.Infrastructure.dll

@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{01A75C6B-4DC5-4A17-98D0-80C064B832D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini-ERP.Domain", "Core\Mini-ERP.Domain\Mini-ERP.Domain\Mini-ERP.Domain.csproj", "{E95095CC-C8F7-449E-AABD-76243FEAA162}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mini-ERP.Domain", "Core\Mini-ERP.Domain\Mini-ERP.Domain\Mini-ERP.Domain.csproj", "{E95095CC-C8F7-449E-AABD-76243FEAA162}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini-ERP.Application", "Core\Mini-ERP.Application\Mini-ERP.Application\Mini-ERP.Application.csproj", "{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mini-ERP.Application", "Core\Mini-ERP.Application\Mini-ERP.Application\Mini-ERP.Application.csproj", "{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini-EEP.Infrastructure", "Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\Mini-EEP.Infrastructure.csproj", "{6C371440-C6CD-4EF8-BF0C-0235A622F8A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mini-ERP.Infrastructure", "Infrastructure\Mini-ERP.Infrastructure\Mini-EEP.Infrastructure\Mini-ERP.Infrastructure.csproj", "{6C371440-C6CD-4EF8-BF0C-0235A622F8A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini-ERP.Persistence", "Infrastructure\Mini-ERP.Persistence\Mini-ERP.Persistence\Mini-ERP.Persistence.csproj", "{1505EE09-B86B-4F25-A3BA-26AB0E07891F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mini-ERP.Persistence", "Infrastructure\Mini-ERP.Persistence\Mini-ERP.Persistence\Mini-ERP.Persistence.csproj", "{1505EE09-B86B-4F25-A3BA-26AB0E07891F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini-ERP.API", "Presentation\Mini-ERP.API\Mini-ERP.API\Mini-ERP.API.csproj", "{8F370419-D74C-4259-8756-2395585F1349}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mini-ERP.API", "Presentation\Mini-ERP.API\Mini-ERP.API\Mini-ERP.API.csproj", "{8F370419-D74C-4259-8756-2395585F1349}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

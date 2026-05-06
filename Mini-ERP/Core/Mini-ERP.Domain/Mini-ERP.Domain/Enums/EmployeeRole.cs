@@ -10,6 +10,6 @@ namespace Mini_ERP.Domain.Enums
     {
         MilkCollector,
         QualityControl,
-        Production
+        ProductionOperator
     }
 }

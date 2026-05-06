@@ -160,6 +160,54 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Mini_ERP.API.Controllers.ProductionController",
+    "Method": "GetProductionAll",
+    "RelativePath": "api/Production",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getProductionQueryRequest",
+        "Type": "Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP.API.Controllers.ProductionController",
+    "Method": "AddProduction",
+    "RelativePath": "api/Production",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createProductionCommandRequest",
+        "Type": "Mini_ERP.Application.Features.Commands.Production.CreateProduction.CreateProductionCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP.API.Controllers.ProductionController",
+    "Method": "UpdateProduction",
+    "RelativePath": "api/Production",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateProductionCommandRequest",
+        "Type": "Mini_ERP.Application.Features.Commands.Production.UpdateProduction.UpdateProductionCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Mini_ERP.API.Controllers.StockController",
     "Method": "GetStockAll",
     "RelativePath": "api/Stock",

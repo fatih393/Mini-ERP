@@ -27,7 +27,7 @@ namespace Mini_ERP.Domain.Entities
        
         public DateTime ProductDate { get; set; }
 
-        // QR 
-      //  public string BatchCode { get; set; }
+         
+        public string? BatchCode { get; set; }
     }
 }

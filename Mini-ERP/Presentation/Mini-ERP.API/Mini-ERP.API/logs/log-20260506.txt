@@ -1,0 +1,666 @@
+2026-05-06 14:27:17.566 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-06 14:27:17.670 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-06 14:27:17.671 +03:00 [INF] Hosting environment: Development
+2026-05-06 14:27:17.671 +03:00 [INF] Content root path: C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Presentation\Mini-ERP.API\Mini-ERP.API
+2026-05-06 14:27:17.996 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-06 14:27:18.179 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 200 null text/html;charset=utf-8 190.1381ms
+2026-05-06 14:27:18.213 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_vs/browserLink - null null
+2026-05-06 14:27:18.213 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-06 14:27:18.217 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 3.5671ms
+2026-05-06 14:27:18.253 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.6862ms
+2026-05-06 14:27:18.294 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-06 14:27:18.393 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 99.475ms
+2026-05-06 14:27:42.014 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-06 14:27:42.114 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-06 14:27:42.114 +03:00 [INF] Hosting environment: Development
+2026-05-06 14:27:42.114 +03:00 [INF] Content root path: C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Presentation\Mini-ERP.API\Mini-ERP.API
+2026-05-06 14:27:42.430 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-06 14:27:42.528 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 200 null text/html;charset=utf-8 101.0414ms
+2026-05-06 14:27:42.545 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-06 14:27:42.548 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 3.2039ms
+2026-05-06 14:27:42.552 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_vs/browserLink - null null
+2026-05-06 14:27:42.575 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.6735ms
+2026-05-06 14:27:42.607 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-06 14:27:42.690 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 83.9049ms
+2026-05-06 14:27:46.135 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Production - null null
+2026-05-06 14:27:46.148 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-06 14:27:46.152 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 14:27:46.174 +03:00 [INF] Route matched with {action = "GetProductionAll", controller = "Production"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductionAll(Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryRequest) on controller Mini_ERP.API.Controllers.ProductionController (Mini-ERP.API).
+2026-05-06 14:27:46.775 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:27:46.775 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:27:46.775 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:27:46.775 +03:00 [WRN] The decimal property 'ConsumedMilkQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:27:46.776 +03:00 [WRN] The decimal property 'OutputQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:27:46.776 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:27:47.608 +03:00 [INF] Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "p"."Id", "p"."ConsumedMilkQuantity", "p"."OutputQuantity", "p"."ProductDate", "p"."ProductName", "p"."ProductionEmployeeId", "p"."Unit", "e"."Id", "e"."Name", "e"."Phone", "e"."Role"
+FROM "Production" "p"
+INNER JOIN "Employees" "e" ON "p"."ProductionEmployeeId" = "e"."Id"
+2026-05-06 14:27:47.623 +03:00 [INF] Productions listeleme başarılı
+2026-05-06 14:27:47.628 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 14:27:47.647 +03:00 [INF] Executed action Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API) in 1470.5415ms
+2026-05-06 14:27:47.648 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 14:27:47.653 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Production - 200 null application/json; charset=utf-8 1518.2514ms
+2026-05-06 14:30:24.345 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-06 14:30:24.449 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-06 14:30:24.449 +03:00 [INF] Hosting environment: Development
+2026-05-06 14:30:24.449 +03:00 [INF] Content root path: C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Presentation\Mini-ERP.API\Mini-ERP.API
+2026-05-06 14:30:24.861 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-06 14:30:24.981 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 200 null text/html;charset=utf-8 126.1382ms
+2026-05-06 14:30:25.014 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-06 14:30:25.014 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_vs/browserLink - null null
+2026-05-06 14:30:25.016 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 1.9882ms
+2026-05-06 14:30:25.036 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.0253ms
+2026-05-06 14:30:25.065 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-06 14:30:25.145 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.537ms
+2026-05-06 14:30:29.961 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Production - null null
+2026-05-06 14:30:29.965 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-06 14:30:29.968 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 14:30:29.985 +03:00 [INF] Route matched with {action = "GetProductionAll", controller = "Production"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductionAll(Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryRequest) on controller Mini_ERP.API.Controllers.ProductionController (Mini-ERP.API).
+2026-05-06 14:30:30.503 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:30:30.503 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:30:30.503 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:30:30.503 +03:00 [WRN] The decimal property 'ConsumedMilkQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:30:30.503 +03:00 [WRN] The decimal property 'OutputQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:30:30.504 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:30:31.233 +03:00 [INF] Executed DbCommand (92ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "p"."Id", "p"."ConsumedMilkQuantity", "p"."OutputQuantity", "p"."ProductDate", "p"."ProductName", "p"."ProductionEmployeeId", "p"."Unit", "e"."Id", "e"."Name", "e"."Phone", "e"."Role"
+FROM "Production" "p"
+INNER JOIN "Employees" "e" ON "p"."ProductionEmployeeId" = "e"."Id"
+2026-05-06 14:30:31.256 +03:00 [WRN] Liste boş
+2026-05-06 14:30:31.263 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Mini_ERP.Application.Features.ErrorDataResult`1[[Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 14:30:31.286 +03:00 [INF] Executed action Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API) in 1298.1646ms
+2026-05-06 14:30:31.287 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 14:30:31.294 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Production - 400 null application/json; charset=utf-8 1332.9873ms
+2026-05-06 14:50:36.749 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-06 14:50:36.900 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-06 14:50:36.901 +03:00 [INF] Hosting environment: Development
+2026-05-06 14:50:36.901 +03:00 [INF] Content root path: C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Presentation\Mini-ERP.API\Mini-ERP.API
+2026-05-06 14:50:37.039 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-06 14:50:37.167 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 200 null text/html;charset=utf-8 134.5269ms
+2026-05-06 14:50:37.216 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-06 14:50:37.216 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_vs/browserLink - null null
+2026-05-06 14:50:37.219 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 2.9324ms
+2026-05-06 14:50:37.256 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.45ms
+2026-05-06 14:50:37.286 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-06 14:50:37.377 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 90.568ms
+2026-05-06 14:50:55.090 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Employee - null null
+2026-05-06 14:50:55.096 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-06 14:50:55.100 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.EmployeeController.GetEmployees (Mini-ERP.API)'
+2026-05-06 14:50:55.119 +03:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees(Mini_ERP.Application.Features.Queries.Employee.GetEmployee.GetEmployeeQueryRequest) on controller Mini_ERP.API.Controllers.EmployeeController (Mini-ERP.API).
+2026-05-06 14:50:55.613 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:50:55.614 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:50:55.614 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:50:55.614 +03:00 [WRN] The decimal property 'ConsumedMilkQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:50:55.614 +03:00 [WRN] The decimal property 'OutputQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:50:55.615 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:50:56.212 +03:00 [INF] Executed DbCommand (74ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "e"."Id", "e"."Name", "e"."Phone", "e"."Role"
+FROM "Employees" "e"
+2026-05-06 14:50:56.232 +03:00 [INF] Employees listelendi
+2026-05-06 14:50:56.236 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Employee.GetEmployee.GetEmployeeQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 14:50:56.256 +03:00 [INF] Executed action Mini_ERP.API.Controllers.EmployeeController.GetEmployees (Mini-ERP.API) in 1134.866ms
+2026-05-06 14:50:56.257 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.EmployeeController.GetEmployees (Mini-ERP.API)'
+2026-05-06 14:50:56.262 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Employee - 200 null application/json; charset=utf-8 1172.3597ms
+2026-05-06 14:53:38.454 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-06 14:53:38.549 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-06 14:53:38.549 +03:00 [INF] Hosting environment: Development
+2026-05-06 14:53:38.549 +03:00 [INF] Content root path: C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Presentation\Mini-ERP.API\Mini-ERP.API
+2026-05-06 14:53:38.881 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-06 14:53:38.980 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 200 null text/html;charset=utf-8 102.1845ms
+2026-05-06 14:53:39.009 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-06 14:53:39.009 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_vs/browserLink - null null
+2026-05-06 14:53:39.011 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 2.0129ms
+2026-05-06 14:53:39.037 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.1898ms
+2026-05-06 14:53:39.066 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-06 14:53:39.154 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.6953ms
+2026-05-06 14:53:52.441 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Employee - application/json 83
+2026-05-06 14:53:52.447 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-06 14:53:52.450 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.EmployeeController.AddEmployee (Mini-ERP.API)'
+2026-05-06 14:53:52.469 +03:00 [INF] Route matched with {action = "AddEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployee(Mini_ERP.Application.Features.Commands.Employee.CreateEmployee.CreateEmployeeCommandRequest) on controller Mini_ERP.API.Controllers.EmployeeController (Mini-ERP.API).
+2026-05-06 14:53:52.993 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:53:52.993 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:53:52.994 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:53:52.994 +03:00 [WRN] The decimal property 'ConsumedMilkQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:53:52.994 +03:00 [WRN] The decimal property 'OutputQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:53:52.994 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 14:53:53.620 +03:00 [INF] Executed DbCommand (75ms) [Parameters=[:Name_0='?' (Size = 2000)], CommandType='"Text"', CommandTimeout='0']
+SELECT "e"."Id", "e"."Name", "e"."Phone", "e"."Role"
+FROM "Employees" "e"
+WHERE "e"."Name" = :Name_0
+FETCH FIRST 1 ROWS ONLY
+2026-05-06 14:53:53.798 +03:00 [INF] Executed DbCommand (52ms) [Parameters=[:p0='?' (Size = 2000), :p1='?' (Size = 2000), :p2='?' (DbType = Int32), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+TYPE "rEmployees_0" IS RECORD
+(
+"Id" NUMBER(10)
+);
+TYPE "tEmployees_0" IS TABLE OF "rEmployees_0";
+"lEmployees_0" "tEmployees_0";
+
+BEGIN
+
+"lEmployees_0" := "tEmployees_0"();
+"lEmployees_0".extend(1);
+INSERT INTO "Employees" ("Name", "Phone", "Role")
+VALUES (:p0, :p1, :p2)
+RETURNING "Id" INTO "lEmployees_0"(1)."Id";
+OPEN :cur0 FOR SELECT "lEmployees_0"(1)."Id" FROM DUAL;
+
+END;
+2026-05-06 14:53:53.836 +03:00 [INF] Employee kaydı başarılı
+2026-05-06 14:53:53.841 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Commands.Employee.CreateEmployee.CreateEmployeeCommandResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 14:53:53.845 +03:00 [INF] Executed action Mini_ERP.API.Controllers.EmployeeController.AddEmployee (Mini-ERP.API) in 1373.3341ms
+2026-05-06 14:53:53.845 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.EmployeeController.AddEmployee (Mini-ERP.API)'
+2026-05-06 14:53:53.850 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Employee - 200 null application/json; charset=utf-8 1409.3718ms
+2026-05-06 14:53:58.423 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Employee - null null
+2026-05-06 14:53:58.424 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.EmployeeController.GetEmployees (Mini-ERP.API)'
+2026-05-06 14:53:58.429 +03:00 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees(Mini_ERP.Application.Features.Queries.Employee.GetEmployee.GetEmployeeQueryRequest) on controller Mini_ERP.API.Controllers.EmployeeController (Mini-ERP.API).
+2026-05-06 14:53:58.483 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "e"."Id", "e"."Name", "e"."Phone", "e"."Role"
+FROM "Employees" "e"
+2026-05-06 14:53:58.487 +03:00 [INF] Employees listelendi
+2026-05-06 14:53:58.488 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Employee.GetEmployee.GetEmployeeQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 14:53:58.499 +03:00 [INF] Executed action Mini_ERP.API.Controllers.EmployeeController.GetEmployees (Mini-ERP.API) in 69.5728ms
+2026-05-06 14:53:58.499 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.EmployeeController.GetEmployees (Mini-ERP.API)'
+2026-05-06 14:53:58.500 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Employee - 200 null application/json; charset=utf-8 77.043ms
+2026-05-06 14:54:20.227 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Stock - null null
+2026-05-06 14:54:20.228 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API)'
+2026-05-06 14:54:20.234 +03:00 [INF] Route matched with {action = "GetStockAll", controller = "Stock"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStockAll(Mini_ERP.Application.Features.Queries.Stock.GetStock.GetStockQueryRequest) on controller Mini_ERP.API.Controllers.StockController (Mini-ERP.API).
+2026-05-06 14:54:20.274 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "s"."Id", "s"."LastUpdated", "s"."ProductName", "s"."Quantity", "s"."ReferenceId", "s"."ReferenceType", "s"."Unit"
+FROM "Stocks" "s"
+2026-05-06 14:54:20.285 +03:00 [INF] Listeleme başarılı...
+2026-05-06 14:54:20.285 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Stock.GetStock.GetStockQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 14:54:20.295 +03:00 [INF] Executed action Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API) in 60.8872ms
+2026-05-06 14:54:20.295 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API)'
+2026-05-06 14:54:20.296 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Stock - 200 null application/json; charset=utf-8 68.4775ms
+2026-05-06 14:54:56.487 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Production - application/json 177
+2026-05-06 14:54:56.488 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.ProductionController.AddProduction (Mini-ERP.API)'
+2026-05-06 14:54:56.492 +03:00 [INF] Route matched with {action = "AddProduction", controller = "Production"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddProduction(Mini_ERP.Application.Features.Commands.Production.CreateProduction.CreateProductionCommandRequest) on controller Mini_ERP.API.Controllers.ProductionController (Mini-ERP.API).
+2026-05-06 14:54:56.596 +03:00 [INF] Executed DbCommand (57ms) [Parameters=[:p0='?' (DbType = Decimal), :p1='?' (DbType = Decimal), :p2='?' (DbType = DateTime), :p3='?' (DbType = Int32), :p4='?' (DbType = Int32), :p5='?' (DbType = Int32), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+TYPE "rProduction_0" IS RECORD
+(
+"Id" NUMBER(10)
+);
+TYPE "tProduction_0" IS TABLE OF "rProduction_0";
+"lProduction_0" "tProduction_0";
+
+BEGIN
+
+"lProduction_0" := "tProduction_0"();
+"lProduction_0".extend(1);
+INSERT INTO "Production" ("ConsumedMilkQuantity", "OutputQuantity", "ProductDate", "ProductName", "ProductionEmployeeId", "Unit")
+VALUES (:p0, :p1, :p2, :p3, :p4, :p5)
+RETURNING "Id" INTO "lProduction_0"(1)."Id";
+OPEN :cur0 FOR SELECT "lProduction_0"(1)."Id" FROM DUAL;
+
+END;
+2026-05-06 14:54:56.622 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "s"."Quantity"
+FROM "Stocks" "s"
+WHERE "s"."ProductName" = 0
+ORDER BY "s"."LastUpdated" DESC
+FETCH FIRST 1 ROWS ONLY
+2026-05-06 14:54:56.653 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[:p0='?' (DbType = DateTime), :p1='?' (DbType = Int32), :p2='?' (DbType = Decimal), :p3='?' (DbType = Int32), :p4='?' (DbType = Int32), :p5='?' (DbType = Int32), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+TYPE "rStocks_0" IS RECORD
+(
+"Id" NUMBER(10)
+);
+TYPE "tStocks_0" IS TABLE OF "rStocks_0";
+"lStocks_0" "tStocks_0";
+
+BEGIN
+
+"lStocks_0" := "tStocks_0"();
+"lStocks_0".extend(1);
+INSERT INTO "Stocks" ("LastUpdated", "ProductName", "Quantity", "ReferenceId", "ReferenceType", "Unit")
+VALUES (:p0, :p1, :p2, :p3, :p4, :p5)
+RETURNING "Id" INTO "lStocks_0"(1)."Id";
+OPEN :cur0 FOR SELECT "lStocks_0"(1)."Id" FROM DUAL;
+
+END;
+2026-05-06 14:54:56.657 +03:00 [INF] Production kaydı başarılı
+2026-05-06 14:54:56.657 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Commands.Production.CreateProduction.CreateProductionCommandResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 14:54:56.659 +03:00 [INF] Executed action Mini_ERP.API.Controllers.ProductionController.AddProduction (Mini-ERP.API) in 166.8218ms
+2026-05-06 14:54:56.659 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.ProductionController.AddProduction (Mini-ERP.API)'
+2026-05-06 14:54:56.659 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Production - 200 null application/json; charset=utf-8 171.9339ms
+2026-05-06 14:55:06.979 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Production - null null
+2026-05-06 14:55:06.980 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 14:55:06.983 +03:00 [INF] Route matched with {action = "GetProductionAll", controller = "Production"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductionAll(Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryRequest) on controller Mini_ERP.API.Controllers.ProductionController (Mini-ERP.API).
+2026-05-06 14:55:07.037 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "p"."Id", "p"."ConsumedMilkQuantity", "p"."OutputQuantity", "p"."ProductDate", "p"."ProductName", "p"."ProductionEmployeeId", "p"."Unit", "e"."Id", "e"."Name", "e"."Phone", "e"."Role"
+FROM "Production" "p"
+INNER JOIN "Employees" "e" ON "p"."ProductionEmployeeId" = "e"."Id"
+2026-05-06 14:55:07.045 +03:00 [INF] Productions listeleme başarılı
+2026-05-06 14:55:07.045 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 14:55:07.061 +03:00 [INF] Executed action Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API) in 77.0847ms
+2026-05-06 14:55:07.062 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 14:55:07.063 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Data.productions.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.ProductionEmployee.Name.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-05-06 14:55:07.071 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Production - 500 null text/plain; charset=utf-8 91.3832ms
+2026-05-06 14:55:16.022 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Stock - null null
+2026-05-06 14:55:16.023 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API)'
+2026-05-06 14:55:16.023 +03:00 [INF] Route matched with {action = "GetStockAll", controller = "Stock"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStockAll(Mini_ERP.Application.Features.Queries.Stock.GetStock.GetStockQueryRequest) on controller Mini_ERP.API.Controllers.StockController (Mini-ERP.API).
+2026-05-06 14:55:16.036 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "s"."Id", "s"."LastUpdated", "s"."ProductName", "s"."Quantity", "s"."ReferenceId", "s"."ReferenceType", "s"."Unit"
+FROM "Stocks" "s"
+2026-05-06 14:55:16.036 +03:00 [INF] Listeleme başarılı...
+2026-05-06 14:55:16.037 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Stock.GetStock.GetStockQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 14:55:16.037 +03:00 [INF] Executed action Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API) in 14.2581ms
+2026-05-06 14:55:16.037 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.StockController.GetStockAll (Mini-ERP.API)'
+2026-05-06 14:55:16.038 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Stock - 200 null application/json; charset=utf-8 15.8256ms
+2026-05-06 15:05:30.545 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-06 15:05:30.640 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-06 15:05:30.640 +03:00 [INF] Hosting environment: Development
+2026-05-06 15:05:30.640 +03:00 [INF] Content root path: C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Presentation\Mini-ERP.API\Mini-ERP.API
+2026-05-06 15:05:31.030 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-06 15:05:31.139 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 200 null text/html;charset=utf-8 112.6658ms
+2026-05-06 15:05:31.179 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_vs/browserLink - null null
+2026-05-06 15:05:31.179 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-06 15:05:31.181 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 2.0368ms
+2026-05-06 15:05:31.201 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.3925ms
+2026-05-06 15:05:31.238 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-06 15:05:31.329 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 90.87ms
+2026-05-06 15:05:36.147 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Production - null null
+2026-05-06 15:05:36.152 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-06 15:05:36.155 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 15:05:36.173 +03:00 [INF] Route matched with {action = "GetProductionAll", controller = "Production"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductionAll(Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryRequest) on controller Mini_ERP.API.Controllers.ProductionController (Mini-ERP.API).
+2026-05-06 15:05:36.812 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:05:36.812 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:05:36.813 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:05:36.813 +03:00 [WRN] The decimal property 'ConsumedMilkQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:05:36.813 +03:00 [WRN] The decimal property 'OutputQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:05:36.813 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:05:37.495 +03:00 [INF] Executed DbCommand (79ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "p"."ProductName", "p"."ProductionEmployeeId", "e"."Name", "p"."OutputQuantity", "p"."Unit", "p"."ConsumedMilkQuantity", "p"."ProductDate"
+FROM "Production" "p"
+INNER JOIN "Employees" "e" ON "p"."ProductionEmployeeId" = "e"."Id"
+2026-05-06 15:05:37.544 +03:00 [INF] Productions listeleme başarılı
+2026-05-06 15:05:37.552 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 15:05:37.565 +03:00 [INF] Executed action Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API) in 1389.4825ms
+2026-05-06 15:05:37.565 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 15:05:37.570 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Production - 200 null application/json; charset=utf-8 1423.0263ms
+2026-05-06 15:41:12.463 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-06 15:41:12.569 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-06 15:41:12.570 +03:00 [INF] Hosting environment: Development
+2026-05-06 15:41:12.570 +03:00 [INF] Content root path: C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Presentation\Mini-ERP.API\Mini-ERP.API
+2026-05-06 15:41:12.870 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-06 15:41:12.981 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 200 null text/html;charset=utf-8 116.0082ms
+2026-05-06 15:41:13.013 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-06 15:41:13.013 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_vs/browserLink - null null
+2026-05-06 15:41:13.015 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 1.8953ms
+2026-05-06 15:41:13.038 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.5306ms
+2026-05-06 15:41:13.059 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-06 15:41:13.137 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.8116ms
+2026-05-06 15:41:17.493 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Production - null null
+2026-05-06 15:41:17.500 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-06 15:41:17.503 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 15:41:17.525 +03:00 [INF] Route matched with {action = "GetProductionAll", controller = "Production"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductionAll(Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryRequest) on controller Mini_ERP.API.Controllers.ProductionController (Mini-ERP.API).
+2026-05-06 15:41:18.027 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:41:18.028 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:41:18.028 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:41:18.028 +03:00 [WRN] The decimal property 'ConsumedMilkQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:41:18.028 +03:00 [WRN] The decimal property 'OutputQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:41:18.028 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:41:18.848 +03:00 [INF] Executed DbCommand (99ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "p"."ProductName", "p"."ProductionEmployeeId", "e"."Name", "p"."OutputQuantity", "p"."Unit", "p"."ConsumedMilkQuantity", "p"."ProductDate"
+FROM "Production" "p"
+INNER JOIN "Employees" "e" ON "p"."ProductionEmployeeId" = "e"."Id"
+2026-05-06 15:41:18.897 +03:00 [INF] Productions listeleme başarılı
+2026-05-06 15:41:18.903 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 15:41:18.922 +03:00 [INF] Executed action Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API) in 1393.2404ms
+2026-05-06 15:41:18.922 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 15:41:18.931 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Production - 200 null application/json; charset=utf-8 1437.6674ms
+2026-05-06 15:41:53.444 +03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5132/api/Production - application/json 86
+2026-05-06 15:41:53.445 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.ProductionController.UpdateProduction (Mini-ERP.API)'
+2026-05-06 15:41:53.450 +03:00 [INF] Route matched with {action = "UpdateProduction", controller = "Production"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateProduction(Mini_ERP.Application.Features.Commands.Production.UpdateProduction.UpdateProductionCommandRequest) on controller Mini_ERP.API.Controllers.ProductionController (Mini-ERP.API).
+2026-05-06 15:41:53.581 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[:id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "p"."Id", "p"."ConsumedMilkQuantity", "p"."OutputQuantity", "p"."ProductDate", "p"."ProductName", "p"."ProductionEmployeeId", "p"."Unit"
+FROM "Production" "p"
+WHERE "p"."Id" = :id_0
+FETCH FIRST 1 ROWS ONLY
+2026-05-06 15:42:42.127 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-06 15:42:42.243 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-06 15:42:42.244 +03:00 [INF] Hosting environment: Development
+2026-05-06 15:42:42.244 +03:00 [INF] Content root path: C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Presentation\Mini-ERP.API\Mini-ERP.API
+2026-05-06 15:42:42.751 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-06 15:42:42.859 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 200 null text/html;charset=utf-8 112.4614ms
+2026-05-06 15:42:42.880 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-06 15:42:42.885 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 4.6864ms
+2026-05-06 15:42:42.886 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_vs/browserLink - null null
+2026-05-06 15:42:42.923 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.6314ms
+2026-05-06 15:42:42.950 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-06 15:42:43.030 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.005ms
+2026-05-06 15:42:47.903 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Production - null null
+2026-05-06 15:42:47.907 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-06 15:42:47.910 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 15:42:47.933 +03:00 [INF] Route matched with {action = "GetProductionAll", controller = "Production"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductionAll(Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryRequest) on controller Mini_ERP.API.Controllers.ProductionController (Mini-ERP.API).
+2026-05-06 15:42:48.592 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:42:48.592 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:42:48.592 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:42:48.592 +03:00 [WRN] The decimal property 'ConsumedMilkQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:42:48.592 +03:00 [WRN] The decimal property 'OutputQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:42:48.592 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 15:42:49.324 +03:00 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "p"."ProductName", "p"."ProductionEmployeeId", "e"."Name", "p"."OutputQuantity", "p"."Unit", "p"."ConsumedMilkQuantity", "p"."ProductDate"
+FROM "Production" "p"
+INNER JOIN "Employees" "e" ON "p"."ProductionEmployeeId" = "e"."Id"
+2026-05-06 15:42:49.379 +03:00 [INF] Productions listeleme başarılı
+2026-05-06 15:42:49.386 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 15:42:49.402 +03:00 [INF] Executed action Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API) in 1466.8619ms
+2026-05-06 15:42:49.403 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 15:42:49.410 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Production - 200 null application/json; charset=utf-8 1507.0124ms
+2026-05-06 15:43:09.148 +03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5132/api/Production - application/json 86
+2026-05-06 15:43:09.150 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.ProductionController.UpdateProduction (Mini-ERP.API)'
+2026-05-06 15:43:09.154 +03:00 [INF] Route matched with {action = "UpdateProduction", controller = "Production"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateProduction(Mini_ERP.Application.Features.Commands.Production.UpdateProduction.UpdateProductionCommandRequest) on controller Mini_ERP.API.Controllers.ProductionController (Mini-ERP.API).
+2026-05-06 15:43:09.265 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[:id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='0']
+SELECT "p"."Id", "p"."ConsumedMilkQuantity", "p"."OutputQuantity", "p"."ProductDate", "p"."ProductName", "p"."ProductionEmployeeId", "p"."Unit"
+FROM "Production" "p"
+WHERE "p"."Id" = :id_0
+FETCH FIRST 1 ROWS ONLY
+2026-05-06 15:43:09.368 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[:p2='?' (DbType = Int32), :p0='?' (DbType = Decimal), :p1='?' (DbType = Decimal), :cur0='?' (Direction = Output) (DbType = Object)], CommandType='"Text"', CommandTimeout='0']
+DECLARE
+
+v_RowCount INTEGER;
+
+BEGIN
+
+UPDATE "Production" SET "ConsumedMilkQuantity" = :p0, "OutputQuantity" = :p1
+WHERE "Id" = :p2;
+v_RowCount := SQL%ROWCOUNT;
+OPEN :cur0 FOR SELECT v_RowCount FROM DUAL;
+
+END;
+2026-05-06 15:43:09.392 +03:00 [INF] Kayıt güncellendi
+2026-05-06 15:43:09.393 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Commands.Production.UpdateProduction.UpdateProductionCommandResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 15:43:09.395 +03:00 [INF] Executed action Mini_ERP.API.Controllers.ProductionController.UpdateProduction (Mini-ERP.API) in 240.4109ms
+2026-05-06 15:43:09.395 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.ProductionController.UpdateProduction (Mini-ERP.API)'
+2026-05-06 15:43:09.396 +03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5132/api/Production - 200 null application/json; charset=utf-8 247.7042ms
+2026-05-06 15:43:15.232 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Production - null null
+2026-05-06 15:43:15.234 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 15:43:15.234 +03:00 [INF] Route matched with {action = "GetProductionAll", controller = "Production"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductionAll(Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryRequest) on controller Mini_ERP.API.Controllers.ProductionController (Mini-ERP.API).
+2026-05-06 15:43:15.255 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "p"."ProductName", "p"."ProductionEmployeeId", "e"."Name", "p"."OutputQuantity", "p"."Unit", "p"."ConsumedMilkQuantity", "p"."ProductDate"
+FROM "Production" "p"
+INNER JOIN "Employees" "e" ON "p"."ProductionEmployeeId" = "e"."Id"
+2026-05-06 15:43:15.256 +03:00 [INF] Productions listeleme başarılı
+2026-05-06 15:43:15.256 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 15:43:15.256 +03:00 [INF] Executed action Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API) in 21.9879ms
+2026-05-06 15:43:15.256 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 15:43:15.257 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Production - 200 null application/json; charset=utf-8 24.4663ms
+2026-05-06 15:59:55.756 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-06 15:59:55.847 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-06 15:59:55.848 +03:00 [INF] Hosting environment: Development
+2026-05-06 15:59:55.848 +03:00 [INF] Content root path: C:\Users\Fatih\Desktop\calismalar\Mini-ERP\Presentation\Mini-ERP.API\Mini-ERP.API
+2026-05-06 15:59:56.295 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-06 15:59:56.412 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 200 null text/html;charset=utf-8 121.5677ms
+2026-05-06 15:59:56.446 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-06 15:59:56.446 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/_vs/browserLink - null null
+2026-05-06 15:59:56.448 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 2.1463ms
+2026-05-06 15:59:56.473 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.1322ms
+2026-05-06 15:59:56.510 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-06 15:59:56.593 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.7301ms
+2026-05-06 16:00:02.815 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Production - null null
+2026-05-06 16:00:02.820 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-06 16:00:02.822 +03:00 [INF] Executing endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 16:00:02.842 +03:00 [INF] Route matched with {action = "GetProductionAll", controller = "Production"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductionAll(Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryRequest) on controller Mini_ERP.API.Controllers.ProductionController (Mini-ERP.API).
+2026-05-06 16:00:03.370 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:00:03.370 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:00:03.370 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:00:03.370 +03:00 [WRN] The decimal property 'ConsumedMilkQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:00:03.370 +03:00 [WRN] The decimal property 'OutputQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:00:03.370 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:00:04.013 +03:00 [INF] Executed DbCommand (74ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "p"."ProductName", "p"."ProductionEmployeeId", "e"."Name", "p"."OutputQuantity", "p"."Unit", "p"."ConsumedMilkQuantity", "p"."ProductDate"
+FROM "Production" "p"
+INNER JOIN "Employees" "e" ON "p"."ProductionEmployeeId" = "e"."Id"
+2026-05-06 16:00:04.055 +03:00 [INF] Productions listeleme başarılı
+2026-05-06 16:00:04.059 +03:00 [INF] Executing OkObjectResult, writing value of type 'Mini_ERP.Application.Features.SuccessDataResult`1[[Mini_ERP.Application.Features.Queries.Production.GetProduction.GetProductionQueryResponse, Mini-ERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 16:00:04.071 +03:00 [INF] Executed action Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API) in 1226.5364ms
+2026-05-06 16:00:04.072 +03:00 [INF] Executed endpoint 'Mini_ERP.API.Controllers.ProductionController.GetProductionAll (Mini-ERP.API)'
+2026-05-06 16:00:04.077 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Production - 200 null application/json; charset=utf-8 1261.4596ms
+2026-05-06 16:29:58.158 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:29:58.177 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:29:58.177 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:29:58.177 +03:00 [WRN] The decimal property 'ConsumedMilkQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:29:58.177 +03:00 [WRN] The decimal property 'OutputQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:29:58.177 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:29:58.272 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:29:58.272 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:29:58.272 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:29:58.272 +03:00 [WRN] The decimal property 'ConsumedMilkQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:29:58.272 +03:00 [WRN] The decimal property 'OutputQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:29:58.272 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:30:09.765 +03:00 [WRN] The decimal property 'FatRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:30:09.783 +03:00 [WRN] The decimal property 'ProteinRate' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:30:09.783 +03:00 [WRN] The decimal property 'Quantity' on entity type 'MilkCollection' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:30:09.783 +03:00 [WRN] The decimal property 'ConsumedMilkQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:30:09.783 +03:00 [WRN] The decimal property 'OutputQuantity' on entity type 'Production' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:30:09.783 +03:00 [WRN] The decimal property 'Quantity' on entity type 'Stock' does not have a store type specified. This may lead to a precision loss if the values do not fit in the default precision and scale. Oracle recommends to explicitly specify the column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-05-06 16:30:10.165 +03:00 [INF] Executed DbCommand (82ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT t.table_name FROM user_tables t WHERE t.table_name = N'__EFMigrationsHistory'
+2026-05-06 16:30:10.168 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT t.table_name FROM user_tables t WHERE t.table_name = N'__EFMigrationsHistory'
+2026-05-06 16:30:10.185 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"
+2026-05-06 16:30:10.194 +03:00 [INF] Applying migration '20260506132958_mig_6'.
+2026-05-06 16:30:10.376 +03:00 [INF] Executed DbCommand (156ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'Stocks' 
+  and column_name = 'Quantity' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "Stocks" MODIFY "Quantity"  ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "Stocks" MODIFY "Quantity"  NOT NULL';
+ end if;
+end;
+2026-05-06 16:30:10.436 +03:00 [INF] Executed DbCommand (59ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'Production' 
+  and column_name = 'OutputQuantity' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "Production" MODIFY "OutputQuantity"  ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "Production" MODIFY "OutputQuantity"  NOT NULL';
+ end if;
+end;
+2026-05-06 16:30:10.493 +03:00 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'Production' 
+  and column_name = 'ConsumedMilkQuantity' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "Production" MODIFY "ConsumedMilkQuantity"  ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "Production" MODIFY "ConsumedMilkQuantity"  NOT NULL';
+ end if;
+end;
+2026-05-06 16:30:10.504 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+ALTER TABLE "Production" ADD "BatchCode" NVARCHAR2(2000)
+2026-05-06 16:30:10.567 +03:00 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'MilkCollections' 
+  and column_name = 'Quantity' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "Quantity"  ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "Quantity"  NOT NULL';
+ end if;
+end;
+2026-05-06 16:30:10.627 +03:00 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'MilkCollections' 
+  and column_name = 'ProteinRate' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "ProteinRate"  ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "ProteinRate"  NOT NULL';
+ end if;
+end;
+2026-05-06 16:30:10.698 +03:00 [INF] Executed DbCommand (71ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+declare
+   l_nullable user_tab_columns.nullable % type;
+begin 
+   select nullable into l_nullable 
+   from user_tab_columns 
+  where table_name = 'MilkCollections' 
+  and column_name = 'FatRate' 
+;
+   if l_nullable = 'N' then 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "FatRate"  ';
+ else 
+        EXECUTE IMMEDIATE 'ALTER TABLE "MilkCollections" MODIFY "FatRate"  NOT NULL';
+ end if;
+end;
+2026-05-06 16:30:10.700 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES (N'20260506132958_mig_6', N'8.0.0')

@@ -1,5 +1,5 @@
-Stock tablosuna kayıt işlemi başarıyla tamamlanmıştır. Mevcut sistemde, yeni bir milk collection işlemi gerçekleştiğinde önceki stock kayıtları sorgulanarak güncel miktar elde edilmekte ve bu değer üzerine yeni gelen miktar eklenerek stok güncellenmektedir. Bu işlem MilkCollectionHandler içerisinde gerçekleştirilmektedir.
+Bugün Production modülü üzerinde çalışmalar tamamlanmıştır. Production ekleme ve listeleme işlemleri geliştirilmiş, ilgili alanların güncellenmesi sağlanmıştır. Üretim sürecine ait verilerin izlenebilirliği için BatchCode ve QR Code üretim mekanizması sisteme entegre edilmiştir.
 
-Gerekli hata düzeltmelerinin ardından Production tablosu oluşturulmuş ve veritabanına migration işlemi uygulanmıştır. Buna ek olarak, repository ve service katmanları sadeleştirilerek şu an için yalnızca Add ve Get operasyonlarını destekleyecek şekilde düzenlenmiştir.
+CQRS mimarisi kullanılarak Command ve Query yapısı oluşturulmuş, servis ve repository katmanları bu yapıya uygun şekilde düzenlenmiştir. Production ile ilgili controller endpoint’leri eklenerek API üzerinden erişilebilir hale getirilmiştir.
 
-Proje şu aşamada temel stok ve üretim akışını destekler hale getirilmiş olup, yarın kaldığı yerden geliştirmelere devam edilecektir.
+Genel olarak üretim akışının temel CRUD işlemleri ve QR kod üretim süreci tamamlanmış olup, sistem üretim takibini destekleyecek hale getirilmiştir. Yarın geliştirmelere kaldığı yerden devam edilecektir.

@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Mini_ERP.Persistence;
 using Mini_ERP.Persistence.Contexts;
+using Mini_EEP.Infrastructure;
 using Mini_ERP.Application;
 using System.Text.Json.Serialization;
 using Serilog;
@@ -22,6 +23,7 @@ builder.Services.AddDbContext<Mini_ErpAPIContext>(options =>
     options.UseOracle(builder.Configuration.GetConnectionString("Oracle")));
 builder.Services.AddSwaggerGen();
 builder.Services.AddPersistenceServices(builder.Configuration);
+builder.Services.AddInfrastructureService();
 builder.Services.AddApplicationServices();
 
 var logger = new LoggerConfiguration()

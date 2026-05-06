@@ -298,6 +298,9 @@ namespace Mini_ERP.Persistence.Migrations
 
                     OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("BatchCode")
+                        .HasColumnType("NVARCHAR2(2000)");
+
                     b.Property<decimal>("ConsumedMilkQuantity")
                         .HasColumnType("DECIMAL(18, 2)");
 
