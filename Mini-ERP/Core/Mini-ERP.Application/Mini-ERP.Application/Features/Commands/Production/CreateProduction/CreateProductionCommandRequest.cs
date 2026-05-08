@@ -21,7 +21,7 @@ namespace Mini_ERP.Application.Features.Commands.Production.CreateProduction
 
 
         public decimal ConsumedMilkQuantity { get; set; }
-        public string? BatchCode { get; set; }
+       // public string? BatchCode { get; set; }
 
         public DateTime ProductDate { get; set; }
     }

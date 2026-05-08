@@ -30,12 +30,21 @@ namespace Mini_ERP.Application.Features.Commands.Production.CreateProduction
             try
             {
              
-              var newProduction =   await _service.AddProductionAsync(request.ProductName, request.ProductionEmployeeId, request.OutputQuantity-1, request.Unit, request.ConsumedMilkQuantity, request.ProductDate);
-               
+              var newProductionId =   await _service.AddProductionAsync(request.ProductName, request.ProductionEmployeeId, request.OutputQuantity-1, request.Unit, request.ConsumedMilkQuantity, request.ProductDate);
+               var batchCode = await _service.GenarateBatchCode(newProductionId);
+                await _service.UpdateProducitonBatchCodeByIdAsync(newProductionId, batchCode);
                 try
                 {
-                    var milkQuantity = await _stockService.GetQuantityStockAsync();
-                    await _stockService.AddStockAsync(ProductName.Milk, milkQuantity - request.ConsumedMilkQuantity, Domain.Enums.Unit.Liter, newProduction, ReferenceType.Production, DateTime.Now);
+                    if(request.ProductName == ProductName.Yogurt)
+                    {
+                        var milkQuantity = await _stockService.GetQuantityStockAsync();
+                        await _stockService.AddStockAsync(ProductName.Milk, milkQuantity - request.ConsumedMilkQuantity, Domain.Enums.Unit.Liter, newProductionId, ReferenceType.Production, DateTime.Now);
+                    }
+                    else if(request.ProductName == ProductName.Ayran)
+                    {
+
+                    }
+                       
                 }
                 catch (Exception ex)
                 {
@@ -43,7 +52,7 @@ namespace Mini_ERP.Application.Features.Commands.Production.CreateProduction
                     return new ErrorDataResult<CreateProductionCommandResponse>("stock kaydı sırasında bir hata oluştu. Hata kodu = " + ex);
                 }
                 _logger.LogInformation("Production kaydı başarılı");
-                return new SuccessDataResult<CreateProductionCommandResponse>(null, "Production kaydı başarılı");
+                return new SuccessDataResult<CreateProductionCommandResponse>( new CreateProductionCommandResponse{BatchCode = batchCode },"Production kaydı başarılı");
 
             }
             catch (Exception ex)

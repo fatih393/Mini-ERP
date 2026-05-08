@@ -1,5 +1,1 @@
-Bugün Production modülü üzerinde çalışmalar tamamlanmıştır. Production ekleme ve listeleme işlemleri geliştirilmiş, ilgili alanların güncellenmesi sağlanmıştır. Üretim sürecine ait verilerin izlenebilirliği için BatchCode ve QR Code üretim mekanizması sisteme entegre edilmiştir.
-
-CQRS mimarisi kullanılarak Command ve Query yapısı oluşturulmuş, servis ve repository katmanları bu yapıya uygun şekilde düzenlenmiştir. Production ile ilgili controller endpoint’leri eklenerek API üzerinden erişilebilir hale getirilmiştir.
-
-Genel olarak üretim akışının temel CRUD işlemleri ve QR kod üretim süreci tamamlanmış olup, sistem üretim takibini destekleyecek hale getirilmiştir. Yarın geliştirmelere kaldığı yerden devam edilecektir.
+Bu çalışmada üretim süreci için BatchCode üretimi, QR Code oluşturma ve endpoint üzerinden görselleştirme süreçleri entegre edilmiştir. Her üretim kaydı oluşturulduğunda sistem otomatik olarak bir BatchCode üretmekte ve bu kod ilgili üretim kaydına bağlanmaktadır. Ardından bu BatchCode kullanılarak QR Code oluşturulmakta ve ayrı bir API endpoint üzerinden image formatında (PNG) döndürülmektedir. Böylece üretim kayıtları hem takip edilebilir hale getirilmiştir. Önümüzdeki çalışma günlerinde stock tablosu üzerinde yapısal bir değişiklik yapılması gerekmekte olup bu değişim yapılacaktır.

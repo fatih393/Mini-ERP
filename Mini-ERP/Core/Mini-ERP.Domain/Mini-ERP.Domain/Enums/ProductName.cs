@@ -9,6 +9,7 @@ namespace Mini_ERP.Domain.Enums
     public enum ProductName
     {
         Milk,
-        Yogurt
+        Yogurt,
+        Ayran
     }
 }

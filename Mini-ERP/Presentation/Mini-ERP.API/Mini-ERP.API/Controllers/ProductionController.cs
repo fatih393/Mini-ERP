@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Mini_ERP.Application.Features.Commands.Production.CreateProduction;
 using Mini_ERP.Application.Features.Commands.Production.UpdateProduction;
 using Mini_ERP.Application.Features.Queries.Production.GetProduction;
+using Mini_ERP.Application.Features.Queries.Production.GetProductionQrCode;
+using System.Data.SqlTypes;
 
 namespace Mini_ERP.API.Controllers
 {
@@ -39,6 +41,14 @@ namespace Mini_ERP.API.Controllers
             var response = await _mediator.Send(updateProductionCommandRequest);
             if (response.Success)
                 return Ok(response);
+            return BadRequest(response);
+        }
+        [HttpGet("/qrcode")]
+        public async Task<IActionResult> GetQrCode([FromQuery] GetProductionQrCodeRequest getProductionQrCodeRequest)
+        {
+            var response = await _mediator.Send(getProductionQrCodeRequest);
+            if(response.Success)
+                return File(response.Data.byteGraphic, "image/png");
             return BadRequest(response);
         }
     }

@@ -9,5 +9,6 @@ namespace Mini_ERP.Application.Features.Commands.Production.CreateProduction
     public class CreateProductionCommandResponse
     {
         public string Message { get; set; }
+        public string BatchCode { get; set; }
     }
 }

@@ -7,6 +7,7 @@ using Mini_ERP.Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -86,23 +87,52 @@ namespace Mini_ERP.Persistence.Services
         }
 
 
-        public async Task<byte[]> QrCodeToProductionAsync(int ProductionId)
+        public async Task<string> GenarateBatchCode(int ProductionId)
         {
             Production production = await _productionReadRepository.GetByIdAsync(ProductionId);
             if (production == null)
                 throw new Exception("Kayıt bulunamadı");
-            var plainObject = new
-            {
-                production.Id,
-                production.ProductName,
-                production.OutputQuantity,
-                production.ConsumedMilkQuantity,
-                production.Unit,
-                production.ProductDate,
-            };
-            string plainText = JsonSerializer.Serialize(plainObject);
-            return _qrCodeService.GenerateQRCode(plainText);
+            var raw = $"{production.Id}-{production.ProductName}-{production.OutputQuantity}-{production.ConsumedMilkQuantity}-{production.Unit}-{production.ProductDate:yyyyMMddHHmmss}";
+
+            var hash = Convert.ToBase64String(
+                System.Security.Cryptography.SHA256.HashData(System.Text.Encoding.UTF8.GetBytes(raw))
+            );
+
+            var batchCode = $"PRD-{production.Id}-{hash.Substring(0, 10)}";
+
+            return batchCode;
+
         }
 
+        public async Task<bool> UpdateProducitonBatchCodeByIdAsync(int id, string batchCode)
+        {
+            try
+            {
+                Production production = await _productionReadRepository.GetByIdAsync(id);
+            production.BatchCode = batchCode;
+            await _productionWriteRepository.SaveAsync();
+            return true;
+            }
+            catch { return false; }
+            
+        }
+        public async Task<string> GetByIdProductionAsync(int id)
+        {
+
+            Production production = await _productionReadRepository.GetByIdAsync(id, false);
+            return production.BatchCode;
+        }
+
+        public async Task<byte[]> GenarateQrCode(string batchCode)
+        {
+            try
+            {
+                return _qrCodeService.GenerateQRCode(batchCode);
+            }
+            catch
+            {
+                throw;
+            }
+        }
     }
 }

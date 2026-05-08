@@ -288,6 +288,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Mini_ERP.API.Controllers.ProductionController",
+    "Method": "GetQrCode",
+    "RelativePath": "qrcode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Mini_ERP.API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

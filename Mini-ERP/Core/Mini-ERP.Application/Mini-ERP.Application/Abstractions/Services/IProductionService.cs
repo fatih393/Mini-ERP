@@ -14,7 +14,10 @@ namespace Mini_ERP.Application.Abstractions.Services
         Task<int> AddProductionAsync(ProductName productName, int ProductionEmployeeId, decimal OutputQuantity, Unit unit, decimal ConsumedMilkQuantity, DateTime ProductDate);
         Task<List<ProductionDto>> GetProductionAsync();
         Task<bool> UpdateProductionAsync(int id, decimal OutputQuantity, decimal ConsumedMilkQuantity, Unit Unit);
-        Task<byte[]> QrCodeToProductionAsync(int ProductionId);
+        Task<bool> UpdateProducitonBatchCodeByIdAsync(int id, string batchCode);
+        Task<string> GetByIdProductionAsync(int id);
+        Task<string> GenarateBatchCode(int ProductionId);
+        Task<byte[]> GenarateQrCode(string batchCode);
 
     }
 
