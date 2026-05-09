@@ -28,9 +28,9 @@ namespace Mini_ERP.Persistence.Services
             {
                 var newStock = new Stock
                 {
-                    ProductName = ProductName.Milk,
+                    ProductName = ProductName,
                     Quantity = Quantity,
-                    Unit = Unit.Liter,
+                    Unit = Unit,
                     ReferenceId = ReferenceId,
                     ReferenceType = referenceType,
                     LastUpdated = DateTime.Now,
@@ -57,22 +57,21 @@ namespace Mini_ERP.Persistence.Services
                 return null;
             }
         }
-        public async Task<decimal> GetQuantityStockAsync()
+        public async Task<decimal> GetQuantityStockAsync(ProductName productName)
         {
             try
             {
-                var quantity = await _stockReadRepository
-                    .GetWhere(x => x.ProductName == ProductName.Milk)
-                    .OrderByDescending(x => x.LastUpdated)
-                    .Select(x => x.Quantity)
-                    .FirstOrDefaultAsync();
-
-                return quantity;
+                return await _stockReadRepository
+     .GetWhere(x => x.ProductName == productName)
+     .OrderByDescending(x => x.LastUpdated)
+     .Select(x => x.Quantity)
+     .FirstOrDefaultAsync();
             }
-            catch (Exception)
-            {
+            catch (Exception ex) {
                 throw;
             }
-        }
+            }
+          
+        
     }
 }

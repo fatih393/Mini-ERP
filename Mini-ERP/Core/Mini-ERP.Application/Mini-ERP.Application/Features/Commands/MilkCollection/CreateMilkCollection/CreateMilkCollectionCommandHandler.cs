@@ -34,7 +34,7 @@ namespace Mini_ERP.Application.Features.Commands.MilkCollection.CreateMilkCollec
                 {
                    if(request.Status == true)
                     {
-                        var milkQuantity = await _stockService.GetQuantityStockAsync();
+                        var milkQuantity = await _stockService.GetQuantityStockAsync(ProductName.Milk);
                         await _stockService.AddStockAsync(ProductName.Milk, request.Quantity + milkQuantity, Domain.Enums.Unit.Liter, milkCollection, ReferenceType.MilkCollection, DateTime.Now);
                     }
                 }

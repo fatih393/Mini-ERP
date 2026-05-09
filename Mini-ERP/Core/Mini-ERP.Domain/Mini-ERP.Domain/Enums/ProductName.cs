@@ -10,6 +10,7 @@ namespace Mini_ERP.Domain.Enums
     {
         Milk,
         Yogurt,
-        Ayran
+        Ayran,
+        Cheese
     }
 }

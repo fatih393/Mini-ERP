@@ -13,7 +13,7 @@ namespace Mini_ERP.Application.Abstractions.Services
 
         Task<bool> AddStockAsync(ProductName ProductName, decimal Quantity, Unit Unit, int ReferenceId, ReferenceType referenceType, DateTime LastUpdated);
         Task<List<Stock>> GetAllAsync();
-        Task<decimal> GetQuantityStockAsync();
+        Task<decimal> GetQuantityStockAsync(ProductName productName);
 
     }
 

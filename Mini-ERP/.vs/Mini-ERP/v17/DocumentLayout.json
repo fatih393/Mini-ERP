@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\infrastructure\\mini-erp.persistence\\mini-erp.persistence\\services\\productionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|solutionrelative:infrastructure\\mini-erp.persistence\\mini-erp.persistence\\services\\productionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\core\\mini-erp.application\\mini-erp.application\\abstractions\\services\\iproductionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|solutionrelative:core\\mini-erp.application\\mini-erp.application\\abstractions\\services\\iproductionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F370419-D74C-4259-8756-2395585F1349}|Presentation\\Mini-ERP.API\\Mini-ERP.API\\Mini-ERP.API.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\presentation\\mini-erp.api\\mini-erp.api\\controllers\\productioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F370419-D74C-4259-8756-2395585F1349}|Presentation\\Mini-ERP.API\\Mini-ERP.API\\Mini-ERP.API.csproj|solutionrelative:presentation\\mini-erp.api\\mini-erp.api\\controllers\\productioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\core\\mini-erp.application\\mini-erp.application\\features\\commands\\production\\createproduction\\createproductioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|solutionrelative:core\\mini-erp.application\\mini-erp.application\\features\\commands\\production\\createproduction\\createproductioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{E95095CC-C8F7-449E-AABD-76243FEAA162}|Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Mini-ERP.Domain.csproj|solutionrelative:core\\mini-erp.domain\\mini-erp.domain\\enums\\productname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F370419-D74C-4259-8756-2395585F1349}|Presentation\\Mini-ERP.API\\Mini-ERP.API\\Mini-ERP.API.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\presentation\\mini-erp.api\\mini-erp.api\\controllers\\productioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F370419-D74C-4259-8756-2395585F1349}|Presentation\\Mini-ERP.API\\Mini-ERP.API\\Mini-ERP.API.csproj|solutionrelative:presentation\\mini-erp.api\\mini-erp.api\\controllers\\productioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\infrastructure\\mini-erp.persistence\\mini-erp.persistence\\services\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|solutionrelative:infrastructure\\mini-erp.persistence\\mini-erp.persistence\\services\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\infrastructure\\mini-erp.persistence\\mini-erp.persistence\\services\\productionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1505EE09-B86B-4F25-A3BA-26AB0E07891F}|Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Mini-ERP.Persistence.csproj|solutionrelative:infrastructure\\mini-erp.persistence\\mini-erp.persistence\\services\\productionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\core\\mini-erp.application\\mini-erp.application\\abstractions\\services\\istockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|solutionrelative:core\\mini-erp.application\\mini-erp.application\\abstractions\\services\\istockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\core\\mini-erp.application\\mini-erp.application\\features\\queries\\production\\getproductionqrcode\\getproductionqrcoderesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\core\\mini-erp.application\\mini-erp.application\\features\\queries\\production\\getproductionqrcode\\getproductionqrcodehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|solutionrelative:core\\mini-erp.application\\mini-erp.application\\features\\queries\\production\\getproductionqrcode\\getproductionqrcodehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|c:\\users\\fatih\\desktop\\calismalar\\mini-erp\\core\\mini-erp.application\\mini-erp.application\\abstractions\\services\\iproductionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E6E3D0B-18D0-444A-A85A-49DF0B6F83BA}|Core\\Mini-ERP.Application\\Mini-ERP.Application\\Mini-ERP.Application.csproj|solutionrelative:core\\mini-erp.application\\mini-erp.application\\abstractions\\services\\iproductionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,30 +50,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "IStockService.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Abstractions\\Services\\IStockService.cs",
+              "RelativeDocumentMoniker": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Abstractions\\Services\\IStockService.cs",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Abstractions\\Services\\IStockService.cs",
+              "RelativeToolTip": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Abstractions\\Services\\IStockService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T09:39:40.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StockService.cs",
+              "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Services\\StockService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Services\\StockService.cs",
+              "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Services\\StockService.cs",
+              "RelativeToolTip": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Services\\StockService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwEUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T09:37:45.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CreateProductionCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Features\\Commands\\Production\\CreateProduction\\CreateProductionCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Features\\Commands\\Production\\CreateProduction\\CreateProductionCommandHandler.cs",
               "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Features\\Commands\\Production\\CreateProduction\\CreateProductionCommandHandler.cs",
               "RelativeToolTip": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Features\\Commands\\Production\\CreateProduction\\CreateProductionCommandHandler.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADgAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T12:45:15.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProductName.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Enums\\ProductName.cs",
               "RelativeDocumentMoniker": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Enums\\ProductName.cs",
               "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Enums\\ProductName.cs",
               "RelativeToolTip": "Core\\Mini-ERP.Domain\\Mini-ERP.Domain\\Enums\\ProductName.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T12:42:21.247Z",
               "EditorCaption": ""
@@ -78,40 +112,40 @@
               "RelativeDocumentMoniker": "Presentation\\Mini-ERP.API\\Mini-ERP.API\\Controllers\\ProductionController.cs",
               "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Presentation\\Mini-ERP.API\\Mini-ERP.API\\Controllers\\ProductionController.cs",
               "RelativeToolTip": "Presentation\\Mini-ERP.API\\Mini-ERP.API\\Controllers\\ProductionController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAgwDIAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBYAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T12:22:55.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ProductionService.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Services\\ProductionService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Services\\ProductionService.cs",
               "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Services\\ProductionService.cs",
               "RelativeToolTip": "Infrastructure\\Mini-ERP.Persistence\\Mini-ERP.Persistence\\Services\\ProductionService.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAowHYAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T12:08:22.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "IProductionService.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Abstractions\\Services\\IProductionService.cs",
               "RelativeDocumentMoniker": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Abstractions\\Services\\IProductionService.cs",
               "ToolTip": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Abstractions\\Services\\IProductionService.cs",
               "RelativeToolTip": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Abstractions\\Services\\IProductionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T12:07:15.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "GetProductionQrCodeHandler.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Features\\Queries\\Production\\GetProductionQrCode\\GetProductionQrCodeHandler.cs",
               "RelativeDocumentMoniker": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Features\\Queries\\Production\\GetProductionQrCode\\GetProductionQrCodeHandler.cs",
@@ -119,12 +153,11 @@
               "RelativeToolTip": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Features\\Queries\\Production\\GetProductionQrCode\\GetProductionQrCodeHandler.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T12:04:56.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T12:04:56.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "GetProductionQrCodeRequest.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Features\\Queries\\Production\\GetProductionQrCode\\GetProductionQrCodeRequest.cs",
               "RelativeDocumentMoniker": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Features\\Queries\\Production\\GetProductionQrCode\\GetProductionQrCodeRequest.cs",
@@ -132,12 +165,11 @@
               "RelativeToolTip": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Features\\Queries\\Production\\GetProductionQrCode\\GetProductionQrCodeRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T12:04:08.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T12:04:08.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "GetProductionQrCodeResponse.cs",
               "DocumentMoniker": "C:\\Users\\Fatih\\Desktop\\calismalar\\Mini-ERP\\Core\\Mini-ERP.Application\\Mini-ERP.Application\\Features\\Queries\\Production\\GetProductionQrCode\\GetProductionQrCodeResponse.cs",
               "RelativeDocumentMoniker": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Features\\Queries\\Production\\GetProductionQrCode\\GetProductionQrCodeResponse.cs",
@@ -145,8 +177,7 @@
               "RelativeToolTip": "Core\\Mini-ERP.Application\\Mini-ERP.Application\\Features\\Queries\\Production\\GetProductionQrCode\\GetProductionQrCodeResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T12:03:03.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T12:03:03.807Z"
             }
           ]
         }

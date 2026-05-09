@@ -56,6 +56,7 @@ namespace Mini_ERP.Persistence.Services
       .Include(x => x.ProductionEmployee)
       .Select(p => new ProductionDto
       {
+          Id = p.Id,
           ProductName = p.ProductName.ToString(),
           ProductionEmployeeId = p.ProductionEmployeeId,
           ProductionEmployeeName = p.ProductionEmployee.Name,
